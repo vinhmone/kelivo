@@ -407,6 +407,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get sponsorPageScanQrHint => 'Scan the QR code to sponsor';
 
   @override
+  String get languageDisplayVietnamese => 'Tiếng Việt';
+
+  @override
   String get languageDisplaySimplifiedChinese => 'Simplified Chinese';
 
   @override
@@ -610,6 +613,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get displaySettingsPageLanguageEnglishLabel => 'English';
+
+  @override
+  String get displaySettingsPageLanguageVietnameseLabel => 'Tiếng Việt';
 
   @override
   String get homePagePleaseSelectModel => 'Please select a model first';

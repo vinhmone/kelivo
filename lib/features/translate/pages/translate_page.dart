@@ -188,6 +188,8 @@ class _TranslatePageState extends State<TranslatePage> {
 
   String _displayNameFor(AppLocalizations l10n, String code) {
     switch (code) {
+      case 'vi':
+        return l10n.languageDisplayVietnamese;
       case 'zh-CN':
         return l10n.languageDisplaySimplifiedChinese;
       case 'en':

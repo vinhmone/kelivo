@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
+import 'app_localizations_vi.dart';
 import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
@@ -95,6 +96,7 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
+    Locale('vi'),
     Locale('zh'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
@@ -844,6 +846,12 @@ abstract class AppLocalizations {
   /// **'Scan the QR code to sponsor'**
   String get sponsorPageScanQrHint;
 
+  /// Display name for Vietnamese in translation language selector
+  ///
+  /// In en, this message translates to:
+  /// **'Tiếng Việt'**
+  String get languageDisplayVietnamese;
+
   /// No description provided for @languageDisplaySimplifiedChinese.
   ///
   /// In en, this message translates to:
@@ -1228,6 +1236,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'English'**
   String get displaySettingsPageLanguageEnglishLabel;
+
+  /// No description provided for @displaySettingsPageLanguageVietnameseLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Tiếng Việt'**
+  String get displaySettingsPageLanguageVietnameseLabel;
 
   /// No description provided for @homePagePleaseSelectModel.
   ///
@@ -10082,7 +10096,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'zh'].contains(locale.languageCode);
+      <String>['en', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -10107,6 +10121,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   switch (locale.languageCode) {
     case 'en':
       return AppLocalizationsEn();
+    case 'vi':
+      return AppLocalizationsVi();
     case 'zh':
       return AppLocalizationsZh();
   }

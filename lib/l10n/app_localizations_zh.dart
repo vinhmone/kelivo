@@ -403,6 +403,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get sponsorPageScanQrHint => '扫描二维码赞助';
 
   @override
+  String get languageDisplayVietnamese => 'Tiếng Việt';
+
+  @override
   String get languageDisplaySimplifiedChinese => '简体中文';
 
   @override
@@ -601,6 +604,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get displaySettingsPageLanguageEnglishLabel => 'English';
+
+  @override
+  String get displaySettingsPageLanguageVietnameseLabel => 'Tiếng Việt';
 
   @override
   String get homePagePleaseSelectModel => '请先选择模型';
@@ -5658,6 +5664,9 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String get sponsorPageScanQrHint => '扫描二维码赞助';
 
   @override
+  String get languageDisplayVietnamese => 'Tiếng Việt';
+
+  @override
   String get languageDisplaySimplifiedChinese => '简体中文';
 
   @override
@@ -5856,6 +5865,9 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get displaySettingsPageLanguageEnglishLabel => 'English';
+
+  @override
+  String get displaySettingsPageLanguageVietnameseLabel => 'Tiếng Việt';
 
   @override
   String get homePagePleaseSelectModel => '请先选择模型';
@@ -10913,6 +10925,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get sponsorPageScanQrHint => '掃描二維碼贊助';
 
   @override
+  String get languageDisplayVietnamese => 'Tiếng Việt';
+
+  @override
   String get languageDisplaySimplifiedChinese => '简体中文';
 
   @override
@@ -11111,6 +11126,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get displaySettingsPageLanguageEnglishLabel => 'English';
+
+  @override
+  String get displaySettingsPageLanguageVietnameseLabel => 'Tiếng Việt';
 
   @override
   String get homePagePleaseSelectModel => '請先選擇模型';
