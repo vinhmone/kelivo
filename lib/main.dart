@@ -360,6 +360,24 @@ class MyApp extends StatelessWidget {
                 // App UI language; null = follow system (respects iOS per-app language)
                 locale: settings.appLocaleForMaterialApp,
                 supportedLocales: AppLocalizations.supportedLocales,
+                localeResolutionCallback: (locale, supportedLocales) {
+                  if (locale == null) {
+                    return const Locale('vi');
+                  }
+                  for (final supportedLocale in supportedLocales) {
+                    if (supportedLocale.languageCode == locale.languageCode &&
+                        supportedLocale.scriptCode == locale.scriptCode &&
+                        supportedLocale.countryCode == locale.countryCode) {
+                      return supportedLocale;
+                    }
+                  }
+                  for (final supportedLocale in supportedLocales) {
+                    if (supportedLocale.languageCode == locale.languageCode) {
+                      return supportedLocale;
+                    }
+                  }
+                  return const Locale('vi');
+                },
                 localizationsDelegates: AppLocalizations.localizationsDelegates,
                 theme: themedLight,
                 darkTheme: themedDark,

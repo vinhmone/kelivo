@@ -95,6 +95,8 @@ class _DesktopTranslatePageState extends State<DesktopTranslatePage> {
 
   String _displayNameFor(AppLocalizations l10n, String code) {
     switch (code) {
+      case 'vi':
+        return l10n.languageDisplayVietnamese;
       case 'zh-CN':
         return l10n.languageDisplaySimplifiedChinese;
       case 'en':
@@ -563,6 +565,8 @@ class _LanguageDropdownState extends State<_LanguageDropdown> {
 
   String _displayNameFor(AppLocalizations l10n, String code) {
     switch (code) {
+      case 'vi':
+        return l10n.languageDisplayVietnamese;
       case 'zh-CN':
         return l10n.languageDisplaySimplifiedChinese;
       case 'en':
@@ -795,6 +799,8 @@ class _LangOptionTileState extends State<_LangOptionTile> {
 
   String _localizedLabel(AppLocalizations l10n, String code) {
     switch (code) {
+      case 'vi':
+        return l10n.languageDisplayVietnamese;
       case 'zh-CN':
         return l10n.languageDisplaySimplifiedChinese;
       case 'en':

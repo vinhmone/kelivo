@@ -25,6 +25,12 @@ class LanguageOption {
 
 const List<LanguageOption> supportedLanguages = [
   LanguageOption(
+    code: 'vi',
+    displayName: 'Tiếng Việt',
+    displayNameZh: 'Tiếng Việt',
+    flag: '🇻🇳',
+  ),
+  LanguageOption(
     code: 'zh-CN',
     displayName: 'Simplified Chinese',
     displayNameZh: '简体中文',
@@ -83,11 +89,12 @@ const List<LanguageOption> supportedLanguages = [
   // LanguageOption(code: 'ar', displayName: 'Arabic', displayNameZh: 'العربية', flag: '🇸🇦'),
   // LanguageOption(code: 'hi', displayName: 'Hindi', displayNameZh: 'हिन्दी', flag: '🇮🇳'),
   // LanguageOption(code: 'th', displayName: 'Thai', displayNameZh: 'ไทย', flag: '🇹🇭'),
-  // LanguageOption(code: 'vi', displayName: 'Vietnamese', displayNameZh: 'Tiếng Việt', flag: '🇻🇳'),
 ];
 
 String _displayNameFor(AppLocalizations l10n, String languageCode) {
   switch (languageCode) {
+    case 'vi':
+      return l10n.languageDisplayVietnamese;
     case 'zh-CN':
       return l10n.languageDisplaySimplifiedChinese;
     case 'en':
@@ -304,6 +311,8 @@ class _LanguageSelectSheetState extends State<_LanguageSelectSheet> {
 
   String _getLanguageDisplayName(AppLocalizations l10n, String languageCode) {
     switch (languageCode) {
+      case 'vi':
+        return l10n.languageDisplayVietnamese;
       case 'zh-CN':
         return l10n.languageDisplaySimplifiedChinese;
       case 'en':

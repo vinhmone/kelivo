@@ -1,0 +1,2360 @@
+{
+  "helloWorld": "Xin chào thế giới!",
+  "settingsPageBackButton": "Quay lại",
+  "settingsPageTitle": "Cài đặt",
+  "settingsPageDarkMode": "Tối",
+  "settingsPageLightMode": "Sáng",
+  "settingsPageSystemMode": "Hệ thống",
+  "settingsPageWarningMessage": "Một số dịch vụ chưa được cấu hình; một số tính năng có thể bị giới hạn.",
+  "settingsPageGeneralSection": "Chung",
+  "settingsPageColorMode": "Chế độ màu",
+  "settingsPageDisplay": "Tuỳ chọn",
+  "settingsPageDisplaySubtitle": "Giao diện, hành vi và tương tác",
+  "settingsPageAssistant": "Trợ lý",
+  "settingsPageAssistantSubtitle": "Trợ lý mặc định và kiểu phản hồi",
+  "settingsPageModelsServicesSection": "Mô hình & Dịch vụ",
+  "settingsPageDefaultModel": "Mô hình mặc định",
+  "settingsPageProviders": "Nhà cung cấp",
+  "settingsPageHotkeys": "Phím tắt",
+  "settingsPageSearch": "Tìm kiếm",
+  "settingsPageTts": "TTS",
+  "settingsPageMcp": "MCP",
+  "settingsPageQuickPhrase": "Cụm từ nhanh",
+  "settingsPageInstructionInjection": "Chèn chỉ dẫn",
+  "settingsPageDataSection": "Dữ liệu",
+  "settingsPageBackup": "Sao lưu",
+  "settingsPageChatStorage": "Lưu trữ trò chuyện",
+  "settingsPageCalculating": "Đang tính toán…",
+  "settingsPageFilesCount": "{count} tệp · {size}",
+  "@settingsPageFilesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "storageSpacePageTitle": "Dung lượng lưu trữ",
+  "storageSpaceRefreshTooltip": "Làm mới",
+  "storageSpaceLoadFailed": "Không thể tải thông tin dung lượng",
+  "storageSpaceTotalLabel": "Đã dùng",
+  "storageSpaceClearableLabel": "Có thể dọn: {size}",
+  "@storageSpaceClearableLabel": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "storageSpaceClearableHint": "Có thể dọn an toàn: {size}",
+  "@storageSpaceClearableHint": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "storageSpaceCategoryImages": "Hình ảnh",
+  "storageSpaceCategoryFiles": "Tệp",
+  "storageSpaceCategoryChatData": "Lịch sử trò chuyện",
+  "storageSpaceCategoryAssistantData": "Trợ lý",
+  "storageSpaceCategoryCache": "Bộ nhớ đệm",
+  "storageSpaceCategoryLogs": "Nhật ký",
+  "storageSpaceCategoryOther": "Ứng dụng",
+  "storageSpaceFilesCount": "{count} tệp",
+  "@storageSpaceFilesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "storageSpaceSafeToClearHint": "An toàn để dọn. Không ảnh hưởng đến lịch sử trò chuyện.",
+  "storageSpaceNotSafeToClearHint": "Có thể ảnh hưởng đến lịch sử trò chuyện. Cân nhắc trước khi xoá.",
+  "storageSpaceBreakdownTitle": "Chi tiết",
+  "storageSpaceSubChatMessages": "Tin nhắn",
+  "storageSpaceSubChatConversations": "Cuộc trò chuyện",
+  "storageSpaceSubChatToolEvents": "Sự kiện công cụ",
+  "storageSpaceSubAssistantAvatars": "Ảnh đại diện",
+  "storageSpaceSubAssistantImages": "Hình ảnh",
+  "storageSpaceSubCacheAvatars": "Bộ nhớ đệm ảnh đại diện",
+  "storageSpaceSubCacheOther": "Bộ nhớ đệm khác",
+  "storageSpaceSubCacheSystem": "Bộ nhớ đệm hệ thống",
+  "storageSpaceSubLogsFlutter": "Nhật ký Flutter",
+  "storageSpaceSubLogsRequests": "Nhật ký mạng",
+  "storageSpaceSubLogsOther": "Nhật ký khác",
+  "storageSpaceClearConfirmTitle": "Xác nhận dọn dẹp",
+  "storageSpaceClearConfirmMessage": "Xoá {targetName}?",
+  "@storageSpaceClearConfirmMessage": {
+    "placeholders": {
+      "targetName": {
+        "type": "String"
+      }
+    }
+  },
+  "storageSpaceClearButton": "Dọn",
+  "storageSpaceClearDone": "Đã dọn {targetName}",
+  "@storageSpaceClearDone": {
+    "placeholders": {
+      "targetName": {
+        "type": "String"
+      }
+    }
+  },
+  "storageSpaceClearFailed": "Xoá thất bại: {error}",
+  "@storageSpaceClearFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "storageSpaceClearAvatarCacheButton": "Xoá bộ nhớ đệm ảnh đại diện",
+  "storageSpaceClearCacheButton": "Xoá bộ nhớ đệm",
+  "storageSpaceClearLogsButton": "Xoá nhật ký",
+  "storageSpaceViewLogsButton": "Xem nhật ký",
+  "storageSpaceDeleteConfirmTitle": "Xác nhận xoá",
+  "storageSpaceDeleteUploadsConfirmMessage": "Xoá {count} mục? Tệp đính kèm trong lịch sử trò chuyện có thể không còn khả dụng.",
+  "@storageSpaceDeleteUploadsConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "storageSpaceDeletedUploadsDone": "Đã xoá {count} mục",
+  "@storageSpaceDeletedUploadsDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "storageSpaceNoUploads": "Không có mục nào",
+  "storageSpaceSelectAll": "Chọn tất cả",
+  "storageSpaceClearSelection": "Bỏ chọn",
+  "storageSpaceSelectedCount": "Đã chọn {count}",
+  "@storageSpaceSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "storageSpaceUploadsCount": "{count} mục",
+  "@storageSpaceUploadsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsPageAboutSection": "Giới thiệu",
+  "settingsPageAbout": "Giới thiệu",
+  "settingsPageStatistics": "Thống kê",
+  "settingsPageDocs": "Tài liệu",
+  "settingsPageLogs": "Nhật ký",
+  "settingsPageSponsor": "Tài trợ",
+  "settingsPageShare": "Chia sẻ",
+  "statsPageTitle": "Thống kê",
+  "statsPageRangeAllTime": "Tất cả thời gian",
+  "statsPageRangeLast30Days": "30 ngày qua",
+  "statsPageRangePreviousMonth": "Tháng trước",
+  "statsPageRangePreviousQuarter": "Quý trước",
+  "statsPageRangeCustom": "Tùy chỉnh",
+  "statsPageHeatmapTitle": "Heatmap trò chuyện",
+  "statsPageHeatmapLess": "Ít",
+  "statsPageHeatmapMore": "Nhiều",
+  "statsPageSummaryTitle": "Tổng quan",
+  "statsPageTotalConversations": "Tổng số cuộc trò chuyện",
+  "statsPageTotalMessages": "Tổng số tin nhắn",
+  "statsPageInputTokens": "Token đầu vào",
+  "statsPageOutputTokens": "Token đầu ra",
+  "statsPageCachedTokens": "Token đã lưu đệm",
+  "statsPageLaunchCount": "Số lần mở ứng dụng",
+  "statsPageUsageTrendTitle": "Xu hướng sử dụng",
+  "statsPageModelUsageTitle": "Mức sử dụng mô hình",
+  "statsPageAssistantUsageTitle": "Mức sử dụng trợ lý",
+  "statsPageTopicVolumeTitle": "Số lượng chủ đề",
+  "statsPageModelColumn": "Mô hình",
+  "statsPageAssistantColumn": "Trợ lý",
+  "statsPageTopicColumn": "Chủ đề",
+  "statsPageMessagesColumn": "Tin nhắn",
+  "statsPageTopicsColumn": "Chủ đề",
+  "statsPageEmptyTitle": "Chưa có thống kê",
+  "statsPageShowAllTooltip": "Hiển thị tất cả",
+  "statsPageClose": "Đóng",
+  "statsPageUnknownProvider": "Nhà cung cấp không xác định",
+  "statsPageUnknownAssistant": "Trợ lý mặc định",
+  "statsPageUnknownModel": "Model không xác định",
+  "statsPageUnknownTopic": "Chủ đề chưa có tên",
+  "statsPageCustomRangeTitle": "Khoảng tùy chỉnh",
+  "statsPageCustomRangeStart": "Bắt đầu",
+  "statsPageCustomRangeEnd": "Kết thúc",
+  "statsPageCustomRangeCancel": "Hủy",
+  "statsPageCustomRangeApply": "Áp dụng",
+  "sponsorPageMethodsSectionTitle": "Hình thức tài trợ",
+  "sponsorPageSponsorsSectionTitle": "Nhà tài trợ",
+  "sponsorPageEmpty": "Chưa có nhà tài trợ",
+  "sponsorPageAfdianTitle": "Afdian",
+  "sponsorPageAfdianSubtitle": "afdian.com/a/kelivo",
+  "sponsorPageWeChatTitle": "Tài trợ qua WeChat",
+  "sponsorPageWeChatSubtitle": "Mã tài trợ WeChat",
+  "sponsorPageScanQrHint": "Quét mã QR để tài trợ",
+  "languageDisplayVietnamese": "Tiếng Việt",
+  "@languageDisplayVietnamese": {
+    "description": "Display name for Vietnamese in translation language selector"
+  },
+  "languageDisplaySimplifiedChinese": "Tiếng Trung giản thể",
+  "languageDisplayEnglish": "Tiếng Anh",
+  "languageDisplayTraditionalChinese": "Tiếng Trung phồn thể",
+  "languageDisplayJapanese": "Tiếng Nhật",
+  "languageDisplayKorean": "Tiếng Hàn",
+  "languageDisplayFrench": "Tiếng Pháp",
+  "languageDisplayGerman": "Tiếng Đức",
+  "languageDisplayItalian": "Tiếng Ý",
+  "languageDisplaySpanish": "Tiếng Tây Ban Nha",
+  "languageSelectSheetTitle": "Chọn ngôn ngữ dịch",
+  "languageSelectSheetClearButton": "Xóa bản dịch",
+  "homePageClearContext": "Xoá ngữ cảnh",
+  "homePageClearContextWithCount": "Xoá ngữ cảnh ({actual}/{configured})",
+  "@homePageClearContextWithCount": {
+    "placeholders": {
+      "actual": {
+        "type": "String"
+      },
+      "configured": {
+        "type": "String"
+      }
+    }
+  },
+  "homePageDefaultAssistant": "Trợ lý mặc định",
+  "mermaidExportPng": "Xuất PNG",
+  "mermaidExportFailed": "Xuất thất bại",
+  "mermaidImageTab": "Hình ảnh",
+  "mermaidCodeTab": "Mã",
+  "mermaidFullScreen": "Toàn màn hình",
+  "mermaidGeneratingImage": "Đang tạo hình ảnh",
+  "mermaidGenerationFailedHint": "Không thể tạo. Hãy thử hỏi cách khác.",
+  "mermaidPreviewOpen": "Mở xem trước",
+  "mermaidPreviewOpenFailed": "Không thể mở bản xem trước",
+  "assistantProviderDefaultAssistantName": "Trợ lý mặc định",
+  "assistantProviderSampleAssistantName": "Trợ lý mẫu",
+  "assistantProviderNewAssistantName": "Trợ lý mới",
+  "assistantProviderSampleAssistantSystemPrompt": "Bạn là {model_name}, một trợ lý AI sẵn sàng hỗ trợ chính xác và hữu ích. Thời gian hiện tại: {cur_datetime}, ngôn ngữ thiết bị: {locale}, múi giờ: {timezone}, người dùng đang sử dụng {device_info}, phiên bản {system_version}. Nếu người dùng không yêu cầu khác, hãy trả lời bằng ngôn ngữ thiết bị của họ.",
+  "@assistantProviderSampleAssistantSystemPrompt": {
+    "placeholders": {
+      "model_name": {
+        "type": "String"
+      },
+      "cur_datetime": {
+        "type": "String"
+      },
+      "locale": {
+        "type": "String"
+      },
+      "timezone": {
+        "type": "String"
+      },
+      "device_info": {
+        "type": "String"
+      },
+      "system_version": {
+        "type": "String"
+      }
+    }
+  },
+  "displaySettingsPageLanguageTitle": "Ngôn ngữ ứng dụng",
+  "displaySettingsPageLanguageSubtitle": "Chọn ngôn ngữ giao diện",
+  "assistantTagsManageTitle": "Quản lý thẻ",
+  "assistantTagsCreateButton": "Tạo",
+  "assistantTagsCreateDialogTitle": "Tạo thẻ",
+  "assistantTagsCreateDialogOk": "Tạo",
+  "assistantTagsCreateDialogCancel": "Hủy",
+  "assistantTagsNameHint": "Tên thẻ",
+  "assistantTagsRenameButton": "Đổi tên",
+  "assistantTagsRenameDialogTitle": "Đổi tên thẻ",
+  "assistantTagsRenameDialogOk": "Đổi tên",
+  "assistantTagsDeleteButton": "Xoá",
+  "assistantTagsDeleteConfirmTitle": "Xoá thẻ",
+  "assistantTagsDeleteConfirmContent": "Bạn có chắc muốn xoá thẻ này?",
+  "assistantTagsDeleteConfirmOk": "Xoá",
+  "assistantTagsDeleteConfirmCancel": "Hủy",
+  "assistantTagsContextMenuEditAssistant": "Sửa trợ lý",
+  "assistantTagsContextMenuManageTags": "Quản lý thẻ",
+  "mcpTransportOptionStdio": "STDIO",
+  "mcpTransportTagStdio": "STDIO",
+  "mcpTransportTagInmemory": "Tích hợp sẵn",
+  "mcpTransportTagSse": "SSE",
+  "mcpTransportTagHttp": "HTTP",
+  "mcpServerEditSheetStdioOnlyDesktop": "STDIO chỉ khả dụng trên desktop",
+  "mcpServerEditSheetStdioCommandLabel": "Lệnh",
+  "mcpServerEditSheetStdioArgumentsLabel": "Đối số",
+  "mcpServerEditSheetStdioWorkingDirectoryLabel": "Thư mục làm việc (tùy chọn)",
+  "mcpServerEditSheetStdioEnvironmentTitle": "Môi trường",
+  "mcpServerEditSheetStdioEnvNameLabel": "Tên",
+  "mcpServerEditSheetStdioEnvValueLabel": "Giá trị",
+  "mcpServerEditSheetStdioAddEnv": "Thêm biến môi trường",
+  "mcpServerEditSheetStdioCommandRequired": "STDIO yêu cầu lệnh",
+  "assistantTagsContextMenuDeleteAssistant": "Xoá trợ lý",
+  "assistantTagsClearTag": "Xoá thẻ",
+  "displaySettingsPageLanguageChineseLabel": "Tiếng Trung giản thể",
+  "displaySettingsPageLanguageEnglishLabel": "English",
+  "displaySettingsPageLanguageVietnameseLabel": "Tiếng Việt",
+  "homePagePleaseSelectModel": "Vui lòng chọn model trước",
+  "homePageAudioAttachmentUnsupported": "Model hiện tại không hỗ trợ tệp âm thanh. Vui lòng chuyển sang model hỗ trợ âm thanh hoặc xoá tệp âm thanh rồi thử lại.",
+  "homePagePleaseSetupTranslateModel": "Vui lòng cấu hình model dịch trước",
+  "homePageTranslating": "Đang dịch...",
+  "homePageTranslateFailed": "Bản dịch thất bại: {error}",
+  "@homePageTranslateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chatServiceDefaultConversationTitle": "Cuộc trò chuyện mới",
+  "userProviderDefaultUserName": "Người dùng",
+  "homePageDeleteMessage": "Xoá phiên bản này",
+  "homePageDeleteMessageConfirm": "Bạn có chắc muốn xoá phiên bản này? Thao tác này không thể hoàn tác.",
+  "homePageDeleteAllVersions": "Xoá tất cả phiên bản",
+  "homePageDeleteAllVersionsConfirm": "Bạn có chắc muốn xoá tất cả phiên bản của tin nhắn này? Thao tác này không thể hoàn tác.",
+  "homePageCancel": "Hủy",
+  "homePageDelete": "Xoá",
+  "homePageSelectMessagesToShare": "Chọn tin nhắn để chia sẻ",
+  "homePageDone": "Xong",
+  "homePageDropToUpload": "Thả tệp để tải lên",
+  "assistantEditPageTitle": "Trợ lý",
+  "assistantEditPageNotFound": "Không tìm thấy trợ lý",
+  "assistantEditPageBasicTab": "Cơ bản",
+  "assistantEditPagePromptsTab": "Lời nhắc",
+  "assistantEditPageMcpTab": "MCP",
+  "assistantEditPageQuickPhraseTab": "Cụm từ nhanh",
+  "assistantEditPageCustomTab": "Tùy chỉnh",
+  "assistantEditPageRegexTab": "Thay thế Regex",
+  "assistantEditPageLocalToolsTab": "Công cụ cục bộ",
+  "assistantEditTabLayoutTooltip": "Tùy chỉnh tab",
+  "assistantEditTabLayoutTitle": "Tùy chỉnh tab",
+  "assistantEditTabLayoutSubtitle": "Kéo thả để sắp xếp lại tab. Tắt những tab không cần thiết.",
+  "assistantEditOutlineModeTitle": "Kiểu danh sách mục",
+  "assistantEditOutlineModeSubtitle": "Hiển thị tổng quan trợ lý trước, sau đó mở từng mục cài đặt từ danh sách.",
+  "assistantEditTabLayoutResetTooltip": "Đặt lại bố cục tab",
+  "assistantEditTabLayoutAtLeastOneVisible": "Giữ ít nhất một tab hiển thị",
+  "assistantEditTabLayoutDragHandle": "Kéo để sắp xếp lại {tab}",
+  "@assistantEditTabLayoutDragHandle": {
+    "placeholders": {
+      "tab": {
+        "type": "String"
+      }
+    }
+  },
+  "assistantEditRegexDescription": "Tạo quy tắc regex để viết lại hoặc điều chỉnh hiển thị tin nhắn.",
+  "assistantEditAddRegexButton": "Thêm quy tắc Regex",
+  "assistantRegexAddTitle": "Thêm quy tắc Regex",
+  "assistantRegexEditTitle": "Sửa quy tắc Regex",
+  "assistantRegexNameLabel": "Tên quy tắc",
+  "assistantRegexPatternLabel": "Biểu thức chính quy",
+  "assistantRegexReplacementLabel": "Chuỗi thay thế",
+  "assistantRegexScopeLabel": "Phạm vi ảnh hưởng",
+  "assistantRegexScopeUser": "Người dùng",
+  "assistantRegexScopeAssistant": "Trợ lý",
+  "assistantRegexScopeVisualOnly": "Chỉ hiển thị",
+  "assistantRegexScopeReplaceOnly": "Chỉ thay thế",
+  "assistantRegexAddAction": "Thêm",
+  "assistantRegexSaveAction": "Lưu",
+  "assistantRegexDeleteButton": "Xóa",
+  "assistantRegexValidationError": "Vui lòng nhập tên, regex và chọn ít nhất một phạm vi.",
+  "assistantRegexInvalidPattern": "Biểu thức chính quy không hợp lệ",
+  "assistantRegexCancelButton": "Hủy",
+  "assistantRegexUntitled": "Quy tắc chưa đặt tên",
+  "assistantEditCustomHeadersTitle": "Header tùy chỉnh",
+  "assistantEditCustomHeadersAdd": "Thêm header",
+  "assistantEditCustomHeadersEmpty": "Chưa thêm header",
+  "assistantEditCustomBodyTitle": "Body tùy chỉnh",
+  "assistantEditCustomBodyAdd": "Thêm Body",
+  "assistantEditCustomBodyEmpty": "Chưa thêm mục body",
+  "assistantEditHeaderNameLabel": "Tên header",
+  "assistantEditHeaderValueLabel": "Giá trị header",
+  "assistantEditBodyKeyLabel": "Khóa body",
+  "assistantEditBodyValueLabel": "Giá trị body (JSON)",
+  "assistantEditDeleteTooltip": "Xoá",
+  "assistantEditAssistantNameLabel": "Tên trợ lý",
+  "assistantEditUseAssistantAvatarTitle": "Dùng ảnh đại diện trợ lý",
+  "assistantEditUseAssistantAvatarSubtitle": "Dùng ảnh đại diện trợ lý thay cho ảnh đại diện model",
+  "assistantEditUseAssistantNameTitle": "Dùng tên trợ lý",
+  "assistantEditChatModelTitle": "Mô hình chat",
+  "assistantEditChatModelSubtitle": "Model chat mặc định cho trợ lý này (dùng mặc định toàn cục nếu chưa đặt)",
+  "assistantEditTemperatureDescription": "Điều chỉnh độ ngẫu nhiên, khoảng 0–2",
+  "assistantEditTopPDescription": "Không thay đổi nếu không hiểu rõ tác dụng",
+  "assistantEditParameterDisabled": "Tắt (dùng mặc định của nhà cung cấp)",
+  "assistantEditParameterDisabled2": "Tắt (không giới hạn)",
+  "assistantEditContextMessagesTitle": "Số tin nhắn trong ngữ cảnh",
+  "assistantEditContextMessagesDescription": "Số tin nhắn gần đây được giữ trong ngữ cảnh",
+  "assistantEditStreamOutputTitle": "Phản hồi theo luồng",
+  "assistantEditStreamOutputDescription": "Bật phản hồi streaming",
+  "assistantEditThinkingBudgetTitle": "Ngân sách suy luận",
+  "assistantEditConfigureButton": "Cấu hình",
+  "assistantEditMaxTokensTitle": "Số token tối đa",
+  "assistantEditMaxTokensDescription": "Để trống nếu không giới hạn",
+  "assistantEditMaxTokensHint": "Không giới hạn",
+  "assistantEditChatBackgroundTitle": "Nền trò chuyện",
+  "assistantEditChatBackgroundDescription": "Đặt hình nền cho trợ lý này",
+  "assistantEditChooseImageButton": "Chọn hình ảnh",
+  "assistantEditClearButton": "Xoá",
+  "desktopNavChatTooltip": "Trò chuyện",
+  "desktopNavTranslateTooltip": "Dịch",
+  "desktopNavStorageTooltip": "Lưu trữ",
+  "desktopNavGlobalSearchTooltip": "Tìm kiếm toàn cục",
+  "desktopNavThemeToggleTooltip": "Giao diện",
+  "desktopNavSettingsTooltip": "Cài đặt",
+  "desktopAvatarMenuUseEmoji": "Dùng emoji",
+  "cameraPermissionDeniedMessage": "Không thể dùng camera: chưa được cấp quyền.",
+  "openSystemSettings": "Mở cài đặt hệ thống",
+  "desktopAvatarMenuChangeFromImage": "Đổi từ hình ảnh…",
+  "desktopAvatarMenuReset": "Đặt lại ảnh đại diện",
+  "assistantEditAvatarChooseImage": "Chọn hình ảnh",
+  "assistantEditAvatarChooseEmoji": "Chọn emoji",
+  "assistantEditAvatarEnterLink": "Nhập liên kết",
+  "assistantEditAvatarImportQQ": "Nhập từ QQ",
+  "assistantEditAvatarReset": "Đặt lại",
+  "displaySettingsPageChatMessageBackgroundTitle": "Nền tin nhắn chat",
+  "displaySettingsPageChatMessageBackgroundDefault": "Mặc định",
+  "displaySettingsPageChatMessageBackgroundFrosted": "Kính mờ",
+  "displaySettingsPageChatMessageBackgroundSolid": "Màu đặc",
+  "displaySettingsPageAndroidBackgroundChatTitle": "Tạo phản hồi trong nền (Android)",
+  "displaySettingsPageIosBackgroundChatTitle": "Tạo phản hồi trong nền (iOS)",
+  "iosBackgroundSettingsPageTitle": "Tạo phản hồi trong nền trên iOS",
+  "iosBackgroundStatusOn": "Bật",
+  "iosBackgroundStatusOff": "Tắt",
+  "iosBackgroundGenerationEnableTitle": "Tạo phản hồi trong nền",
+  "iosBackgroundGenerationEnableSubtitle": "Sử dụng background runtime của iOS để tiếp tục phản hồi khi ứng dụng chuyển sang nền.",
+  "iosBackgroundTaskRefreshTitle": "Khôi phục tác vụ nền",
+  "iosBackgroundTaskRefreshSubtitle": "Yêu cầu iOS cung cấp cơ hội làm mới và xử lý khi điều kiện hệ thống cho phép.",
+  "iosLiveActivityTitle": "Live Activity",
+  "iosLiveActivitySubtitle": "Hiển thị phản hồi nền trên Màn hình khóa và Dynamic Island khi thiết bị hỗ trợ.",
+  "iosBackgroundNotificationsTitle": "Thông báo tác vụ",
+  "iosBackgroundNotificationsSubtitle": "Gửi thông báo cục bộ khi phản hồi nền hoàn tất hoặc bị gián đoạn.",
+  "iosBackgroundLimitNoticeTitle": "iOS vẫn có thể tạm dừng tác vụ",
+  "iosBackgroundLimitNoticeBody": "Các tuỳ chọn này tận dụng background runtime, BackgroundTasks, thông báo và Live Activities mà Apple cho phép. Chúng giúp duy trì hoạt động liên tục nhưng không thể buộc iOS giữ Kelivo chạy mãi.",
+  "iosBackgroundUnsupportedLiveActivity": "Yêu cầu iOS 16.1 trở lên và đã bật Live Activities trong Cài đặt.",
+  "iosBackgroundNativeStatusTitle": "Trạng thái hệ thống",
+  "iosBackgroundNativeStatusUnavailable": "Chỉ khả dụng trên iOS",
+  "iosBackgroundLiveActivityAvailable": "Live Activities khả dụng",
+  "iosBackgroundLiveActivityUnavailable": "Live Activities không khả dụng",
+  "iosBackgroundNotificationsAuthorized": "Đã cho phép thông báo",
+  "iosBackgroundNotificationsNotAuthorized": "Chưa cho phép thông báo",
+  "iosBackgroundGenerationActiveTitle": "Kelivo đang tạo phản hồi",
+  "iosBackgroundGenerationActiveDetail": "Trợ lý đang trả lời ở chế độ nền",
+  "iosBackgroundGenerationStreamingDetail": "Đang nhận phản hồi từ trợ lý",
+  "iosBackgroundGenerationTokenCount": "{count} tokens",
+  "@iosBackgroundGenerationTokenCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "iosBackgroundGenerationCompleteTitle": "Tạo hoàn tất",
+  "iosBackgroundGenerationCompleteDetail": "Phản hồi của trợ lý đã sẵn sàng",
+  "iosBackgroundGenerationInterruptedTitle": "Quá trình tạo bị gián đoạn",
+  "iosBackgroundGenerationInterruptedDetail": "Phản hồi nền đã dừng trước khi hoàn tất",
+  "iosBackgroundGenerationCancelledDetail": "Đã dừng tạo phản hồi",
+  "androidBackgroundStatusOn": "Bật",
+  "androidBackgroundStatusOff": "Tắt",
+  "androidBackgroundStatusOther": "Bật và thông báo",
+  "androidBackgroundOptionOn": "Bật",
+  "androidBackgroundOptionOnNotify": "Bật và thông báo khi hoàn tất",
+  "androidBackgroundOptionOff": "Tắt",
+  "notificationChatCompletedTitle": "Tạo hoàn tất",
+  "notificationChatCompletedBody": "Phản hồi của trợ lý đã được tạo",
+  "androidBackgroundNotificationTitle": "Kelivo đang chạy",
+  "androidBackgroundNotificationText": "Giữ quá trình tạo phản hồi hoạt động ở chế độ nền",
+  "assistantEditEmojiDialogTitle": "Chọn emoji",
+  "assistantEditEmojiDialogHint": "Nhập hoặc dán emoji bất kỳ",
+  "assistantEditEmojiDialogCancel": "Hủy",
+  "assistantEditEmojiDialogSave": "Lưu",
+  "assistantEditImageUrlDialogTitle": "Nhập URL hình ảnh",
+  "assistantEditImageUrlDialogHint": "e.g. https://example.com/avatar.png",
+  "assistantEditImageUrlDialogCancel": "Hủy",
+  "assistantEditImageUrlDialogSave": "Lưu",
+  "assistantEditQQAvatarDialogTitle": "Nhập từ QQ",
+  "assistantEditQQAvatarDialogHint": "Nhập số QQ (5–12 chữ số)",
+  "assistantEditQQAvatarRandomButton": "Tạo ngẫu nhiên",
+  "assistantEditQQAvatarFailedMessage": "Không thể lấy ảnh đại diện QQ ngẫu nhiên. Vui lòng thử lại.",
+  "assistantEditQQAvatarDialogCancel": "Hủy",
+  "assistantEditQQAvatarDialogSave": "Lưu",
+  "assistantEditGalleryErrorMessage": "Không thể mở thư viện. Vui lòng thử nhập URL hình ảnh.",
+  "assistantEditGeneralErrorMessage": "Đã xảy ra lỗi. Vui lòng thử nhập URL hình ảnh.",
+  "providerDetailPageMultiKeyModeTitle": "Chế độ nhiều khóa",
+  "providerDetailPageManageKeysButton": "Quản lý khóa",
+  "multiKeyPageTitle": "Quản lý nhiều khóa",
+  "multiKeyPageDetect": "Phát hiện",
+  "multiKeyPageAdd": "Thêm",
+  "multiKeyPageAddHint": "Nhập API key, phân tách bằng dấu phẩy hoặc khoảng trắng",
+  "multiKeyPageImportedSnackbar": "Đã nhập {n} khóa",
+  "@multiKeyPageImportedSnackbar": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "multiKeyPagePleaseAddModel": "Hãy thêm model trước",
+  "multiKeyPageTotal": "Tổng",
+  "multiKeyPageNormal": "Bình thường",
+  "multiKeyPageError": "Lỗi",
+  "multiKeyPageAccuracy": "Độ chính xác",
+  "multiKeyPageStrategyTitle": "Chiến lược cân bằng tải",
+  "multiKeyPageStrategyRoundRobin": "Luân phiên",
+  "multiKeyPageStrategyPriority": "Ưu tiên",
+  "multiKeyPageStrategyLeastUsed": "Ít dùng nhất",
+  "multiKeyPageStrategyRandom": "Ngẫu nhiên",
+  "multiKeyPageNoKeys": "Không có khóa API",
+  "multiKeyPageStatusActive": "Hoạt động",
+  "multiKeyPageStatusDisabled": "Đã tắt",
+  "multiKeyPageStatusError": "Lỗi",
+  "multiKeyPageStatusRateLimited": "Bị giới hạn rate",
+  "multiKeyPageEditAlias": "Sửa bí danh",
+  "multiKeyPageEdit": "Sửa",
+  "multiKeyPageKey": "Khóa API",
+  "multiKeyPagePriority": "Độ ưu tiên (1–10)",
+  "multiKeyPageDuplicateKeyWarning": "Khóa này đã tồn tại",
+  "multiKeyPageAlias": "Bí danh",
+  "multiKeyPageCancel": "Hủy",
+  "multiKeyPageSave": "Lưu",
+  "multiKeyPageDelete": "Xoá",
+  "assistantEditSystemPromptTitle": "Lời nhắc hệ thống",
+  "assistantEditSystemPromptHint": "Nhập lời nhắc hệ thống…",
+  "assistantEditSystemPromptImportButton": "Nhập từ tệp",
+  "assistantEditSystemPromptImportSuccess": "Đã cập nhật lời nhắc hệ thống từ tệp",
+  "assistantEditSystemPromptImportFailed": "Không thể nhập tệp",
+  "assistantEditSystemPromptImportEmpty": "Tệp trống",
+  "assistantEditAvailableVariables": "Biến khả dụng:",
+  "assistantEditVariableDate": "Ngày",
+  "assistantEditVariableTime": "Giờ",
+  "assistantEditVariableDatetime": "Ngày giờ",
+  "assistantEditVariableModelId": "ID mô hình",
+  "assistantEditVariableModelName": "Tên mô hình",
+  "assistantEditVariableLocale": "Ngôn ngữ",
+  "assistantEditVariableTimezone": "Múi giờ",
+  "assistantEditVariableSystemVersion": "Phiên bản hệ thống",
+  "assistantEditVariableDeviceInfo": "Thông tin thiết bị",
+  "assistantEditVariableBatteryLevel": "Mức pin",
+  "assistantEditVariableNickname": "Biệt danh",
+  "assistantEditVariableAssistantName": "Tên trợ lý",
+  "assistantEditMessageTemplateTitle": "Mẫu tin nhắn",
+  "assistantEditVariableRole": "Vai trò",
+  "assistantEditVariableMessage": "Tin nhắn",
+  "assistantEditPreviewTitle": "Xem trước",
+  "codeBlockPreviewButton": "Xem trước",
+  "codeBlockSaveAsButton": "Lưu thành tệp",
+  "codeBlockCollapseButton": "Thu gọn",
+  "codeBlockExpandButton": "Mở rộng",
+  "codeBlockDefaultFileNameStem": "code",
+  "markdownTableLabel": "Bảng",
+  "markdownTableExportCsvTooltip": "Xuất CSV",
+  "markdownTableSaveImageTooltip": "Lưu vào thư viện",
+  "markdownTableDefaultFileNameStem": "table",
+  "markdownTableCopiedCsvSnackbar": "Đã sao chép CSV. Nhấn giữ nút Sao chép để sao chép dưới dạng hình ảnh.",
+  "markdownTableCopiedMarkdownSnackbar": "Đã sao chép bảng.",
+  "codeBlockCollapsedLines": "… đã thu gọn {n} dòng",
+  "@codeBlockCollapsedLines": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "htmlPreviewNotSupportedOnLinux": "Linux không hỗ trợ xem trước HTML",
+  "assistantEditSampleUser": "Người dùng",
+  "assistantEditSampleMessage": "Xin chào",
+  "assistantEditSampleReply": "Xin chào, tôi có thể giúp gì cho bạn?",
+  "assistantEditMcpNoServersMessage": "Không có MCP server nào đang chạy",
+  "assistantEditMcpConnectedTag": "Đã kết nối",
+  "assistantEditMcpToolsCountTag": "Công cụ: {enabled}/{total}",
+  "@assistantEditMcpToolsCountTag": {
+    "placeholders": {
+      "enabled": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "assistantEditModelUseGlobalDefault": "Sử dụng mặc định toàn cục",
+  "assistantSettingsPageTitle": "Cài đặt trợ lý",
+  "assistantSettingsCopyButton": "Sao chép",
+  "assistantSettingsCopySuccess": "Đã sao chép trợ lý",
+  "assistantSettingsCopySuffix": "Sao chép",
+  "assistantSettingsDeleteButton": "Xoá",
+  "assistantSettingsEditButton": "Sửa",
+  "assistantSettingsAddSheetTitle": "Tên trợ lý",
+  "assistantSettingsAddSheetHint": "Nhập tên",
+  "assistantSettingsAddSheetCancel": "Hủy",
+  "assistantSettingsAddSheetSave": "Lưu",
+  "desktopAssistantsListTitle": "Trợ lý",
+  "desktopSidebarTabAssistants": "Trợ lý",
+  "desktopSidebarTabTopics": "Chủ đề",
+  "desktopTrayMenuShowWindow": "Hiển thị cửa sổ",
+  "desktopTrayMenuExit": "Thoát",
+  "hotkeyToggleAppVisibility": "Hiển thị/Ẩn ứng dụng",
+  "hotkeyCloseWindow": "Đóng cửa sổ",
+  "hotkeyOpenSettings": "Mở cài đặt",
+  "hotkeyNewTopic": "Chủ đề mới",
+  "hotkeySwitchModel": "Chuyển mô hình",
+  "hotkeyToggleAssistantPanel": "Bật/tắt danh sách trợ lý",
+  "hotkeyToggleTopicPanel": "Bật/tắt danh sách chủ đề",
+  "hotkeysPressShortcut": "Nhấn phím tắt",
+  "hotkeysResetDefault": "Đặt lại mặc định",
+  "hotkeysClearShortcut": "Xóa phím tắt",
+  "hotkeysResetAll": "Đặt lại tất cả về mặc định",
+  "assistantEditTemperatureTitle": "Temperature",
+  "assistantEditTopPTitle": "Top-p",
+  "assistantSettingsDeleteDialogTitle": "Xoá trợ lý",
+  "assistantSettingsDeleteDialogContent": "Bạn có chắc muốn xoá trợ lý này? Thao tác này không thể hoàn tác.",
+  "assistantSettingsDeleteDialogCancel": "Hủy",
+  "assistantSettingsDeleteDialogConfirm": "Xoá",
+  "assistantSettingsAtLeastOneAssistantRequired": "Cần có ít nhất một trợ lý",
+  "mcpAssistantSheetTitle": "MCP Server",
+  "mcpAssistantSheetSubtitle": "Các server được bật cho trợ lý này",
+  "mcpAssistantSheetSelectAll": "Chọn tất cả",
+  "mcpAssistantSheetClearAll": "Bỏ chọn tất cả",
+  "backupPageTitle": "Sao lưu & Khôi phục",
+  "backupPageWebDavTab": "WebDAV",
+  "backupPageImportExportTab": "Nhập/Xuất",
+  "backupPageWebDavServerUrl": "URL server WebDAV",
+  "backupPageUsername": "Tên người dùng",
+  "backupPagePassword": "Mật khẩu",
+  "backupPagePath": "Đường dẫn",
+  "backupPageChatsLabel": "Trò chuyện",
+  "backupPageFilesLabel": "Tệp",
+  "backupPageTestDone": "Kiểm tra xong",
+  "backupPageTestConnection": "Kiểm tra",
+  "backupPageRestartRequired": "Cần khởi động lại",
+  "backupPageRestartContent": "Khôi phục hoàn tất. Vui lòng khởi động lại ứng dụng.",
+  "backupPageOK": "OK",
+  "backupPageCancel": "Hủy",
+  "backupPageSelectImportMode": "Chọn chế độ nhập",
+  "backupPageSelectImportModeDescription": "Chọn cách nhập dữ liệu sao lưu:",
+  "backupPageOverwriteMode": "Ghi đè hoàn toàn",
+  "backupPageOverwriteModeDescription": "Xóa toàn bộ dữ liệu cục bộ và khôi phục từ bản sao lưu",
+  "backupPageMergeMode": "Gộp thông minh",
+  "backupPageMergeModeDescription": "Chỉ thêm dữ liệu chưa có (tự động loại trùng thông minh)",
+  "backupPageRestore": "Khôi phục",
+  "backupPageBackupUploaded": "Đã tải bản sao lưu lên",
+  "backupPageBackup": "Sao lưu",
+  "backupPageExporting": "Đang xuất…",
+  "backupPageExportToFile": "Xuất ra tệp",
+  "backupPageExportToFileSubtitle": "Xuất dữ liệu ứng dụng ra tệp",
+  "backupPageImportBackupFile": "Nhập tệp sao lưu",
+  "backupPageImportBackupFileSubtitle": "Nhập tệp sao lưu cục bộ",
+  "backupPageImportFromOtherApps": "Nhập từ ứng dụng khác",
+  "backupPageImportFromRikkaHub": "Nhập từ RikkaHub",
+  "backupPageNotSupportedYet": "Chưa được hỗ trợ",
+  "backupPageRemoteBackups": "Bản sao lưu từ xa",
+  "backupPageNoBackups": "Không có bản sao lưu",
+  "backupPageRestoreTooltip": "Khôi phục",
+  "backupPageDeleteTooltip": "Xóa",
+  "backupPageDeleteConfirmTitle": "Xác nhận xoá",
+  "backupPageDeleteConfirmContent": "Bạn có chắc muốn xoá bản sao lưu từ xa \"{name}\"? Thao tác này không thể hoàn tác.",
+  "backupPageBackupManagement": "Quản lý sao lưu",
+  "backupPageWebDavBackup": "Sao lưu WebDAV",
+  "backupPageWebDavServerSettings": "Cài đặt server WebDAV",
+  "backupPageS3Backup": "Sao lưu S3",
+  "backupPageS3ServerSettings": "Cài đặt S3",
+  "backupPageS3Endpoint": "Endpoint",
+  "backupPageS3Region": "Region",
+  "backupPageS3Bucket": "Bucket",
+  "backupPageS3AccessKeyId": "Access Key ID",
+  "backupPageS3SecretAccessKey": "Secret Access Key",
+  "backupPageS3SessionToken": "Session Token (Tùy chọn)",
+  "backupPageS3Prefix": "Prefix",
+  "backupPageS3PathStyle": "Path-style addressing",
+  "backupPageSave": "Lưu",
+  "backupPageBackupNow": "Sao lưu ngay",
+  "backupPageLocalBackup": "Sao lưu cục bộ",
+  "backupPageImportFromCherryStudio": "Nhập từ Cherry Studio",
+  "backupPageImportFromChatbox": "Nhập từ Chatbox",
+  "backupReminderSectionTitle": "Nhắc sao lưu",
+  "backupReminderEnableTitle": "Nhắc tôi sao lưu",
+  "backupReminderFrequencyTitle": "Tần suất",
+  "backupReminderTimeTitle": "Thời gian nhắc",
+  "backupReminderTimeInputHint": "HH:mm",
+  "backupReminderTimeInvalid": "Nhập thời gian từ 00:00 đến 23:59.",
+  "backupReminderLastBackupTitle": "Lần sao lưu gần nhất",
+  "backupReminderNextReminderTitle": "Lần nhắc tiếp theo",
+  "backupReminderNever": "Chưa bao giờ",
+  "backupReminderDisabled": "Tắt",
+  "backupReminderDueNow": "Đến hạn ngay",
+  "backupReminderEveryDay": "Mỗi ngày",
+  "backupReminderEveryThreeDays": "Mỗi 3 ngày",
+  "backupReminderEveryWeek": "Mỗi tuần",
+  "backupReminderEveryFourteenDays": "Mỗi 14 ngày",
+  "backupReminderEveryMonth": "Mỗi tháng",
+  "backupReminderCustomDays": "Mỗi {days} ngày",
+  "@backupReminderCustomDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "backupReminderCustomOption": "Tùy chỉnh…",
+  "backupReminderCustomDialogTitle": "Tùy chỉnh tần suất",
+  "backupReminderCustomDialogDescription": "Nhập số ngày giữa các lần nhắc sao lưu.",
+  "backupReminderCustomDaysLabel": "Số ngày",
+  "backupReminderCustomDaysInvalid": "Vui lòng nhập số từ 1 đến 365.",
+  "backupReminderSidebarTitle": "Nhắc sao lưu",
+  "backupReminderSidebarSubtitle": "Đã đến thời điểm sao lưu của bạn.",
+  "backupReminderSidebarAction": "Đi tới sao lưu",
+  "backupReminderSnoozeTooltip": "Nhắc tôi sau",
+  "chatHistoryPageTitle": "Lịch sử trò chuyện",
+  "chatHistoryPageSearchTooltip": "Tìm kiếm",
+  "chatHistoryPageDeleteAllTooltip": "Xoá mục chưa ghim",
+  "chatHistoryPageDeleteAllDialogTitle": "Xoá cuộc trò chuyện chưa ghim",
+  "chatHistoryPageDeleteAllDialogContent": "Xoá tất cả cuộc trò chuyện chưa ghim của trợ lý này? Các cuộc trò chuyện đã ghim sẽ được giữ lại.",
+  "chatHistoryPageCancel": "Hủy",
+  "chatHistoryPageDelete": "Xoá",
+  "chatHistoryPageDeletedAllSnackbar": "Đã xoá các cuộc trò chuyện chưa ghim",
+  "chatHistoryPageSearchHint": "Tìm kiếm cuộc trò chuyện",
+  "chatHistoryPageNoConversations": "Không có cuộc trò chuyện",
+  "chatHistoryPagePinnedSection": "Đã ghim",
+  "chatHistoryPagePin": "Ghim",
+  "chatHistoryPagePinned": "Đã ghim",
+  "messageEditPageTitle": "Sửa tin nhắn",
+  "messageEditPageSave": "Lưu",
+  "messageEditPageSaveAndSend": "Lưu & gửi",
+  "messageEditPageHint": "Nhập tin nhắn…",
+  "userMessageEditSaveOnly": "Chỉ lưu",
+  "userMessageEditUnsupportedSnackbar": "Nội dung này không hỗ trợ chỉnh sửa",
+  "userMessageEditOverwriteTitle": "Lưu ý",
+  "userMessageEditOverwriteContent": "Chỉnh sửa sẽ ghi đè nội dung hiện có. Bạn có muốn tiếp tục?",
+  "selectCopyPageTitle": "Chọn & Sao chép",
+  "selectCopyPageCopyAll": "Sao chép tất cả",
+  "selectCopyPageCopiedAll": "Đã sao chép tất cả",
+  "bottomToolsSheetCamera": "Camera",
+  "bottomToolsSheetPhotos": "Ảnh",
+  "bottomToolsSheetUpload": "Tải lên",
+  "bottomToolsSheetClearContext": "Xoá ngữ cảnh",
+  "compressContext": "Nén ngữ cảnh",
+  "compressContextDesc": "Tóm tắt và bắt đầu chat mới",
+  "clearContextDesc": "Đánh dấu ranh giới ngữ cảnh",
+  "contextManagement": "Quản lý ngữ cảnh",
+  "compressingContext": "Đang nén ngữ cảnh...",
+  "compressContextFailed": "Không thể nén ngữ cảnh",
+  "compressContextNoMessages": "Không có tin nhắn để nén",
+  "compressContextNoConversation": "Không có cuộc trò chuyện để nén",
+  "compressContextNoModel": "Chưa cấu hình model nén",
+  "compressContextEmptySummary": "Kết quả nén trả về bản tóm tắt trống",
+  "compressContextOptionsTitle": "Nén ngữ cảnh",
+  "compressContextOptionsDesc": "Chọn phần của chat hiện tại sẽ gửi tới mô hình nén.",
+  "compressContextKeepStart": "Bắt đầu",
+  "compressContextKeepRecent": "Gần đây",
+  "compressContextUnlimited": "Không giới hạn",
+  "compressContextMaxCharsLabel": "Ký tự",
+  "compressContextInvalidLimit": "Vui lòng nhập số ký tự dương",
+  "compressContextStartButton": "Nén",
+  "bottomToolsSheetLearningMode": "Chế độ học",
+  "bottomToolsSheetLearningModeDescription": "Giúp bạn học từng bước",
+  "bottomToolsSheetConfigurePrompt": "Cấu hình prompt",
+  "bottomToolsSheetPrompt": "Prompt",
+  "bottomToolsSheetPromptHint": "Nhập văn bản prompt cần chèn",
+  "bottomToolsSheetResetDefault": "Đặt lại mặc định",
+  "bottomToolsSheetSave": "Lưu",
+  "bottomToolsSheetOcr": "Hình ảnh OCR",
+  "messageMoreSheetTitle": "Thao tác khác",
+  "messageMoreSheetSelectCopy": "Chọn & Sao chép",
+  "messageMoreSheetRenderWebView": "Hiển thị Web View",
+  "messageMoreSheetNotImplemented": "Chưa triển khai",
+  "messageMoreSheetEdit": "Sửa",
+  "messageMoreSheetShare": "Chia sẻ",
+  "messageMoreSheetSelectMessages": "Chọn tin nhắn",
+  "messageMoreSheetCreateBranch": "Tạo nhánh",
+  "messageMoreSheetDelete": "Xoá phiên bản này",
+  "messageMoreSheetDeleteAllVersions": "Xoá tất cả phiên bản",
+  "reasoningBudgetSheetOff": "Tắt",
+  "reasoningBudgetSheetAuto": "Tự động",
+  "reasoningBudgetSheetLight": "Suy luận nhẹ",
+  "reasoningBudgetSheetMedium": "Suy luận trung bình",
+  "reasoningBudgetSheetHeavy": "Suy luận sâu",
+  "reasoningBudgetSheetXhigh": "Suy luận cực sâu",
+  "reasoningBudgetSheetTitle": "Độ mạnh chuỗi suy luận",
+  "reasoningBudgetSheetCurrentLevel": "Mức hiện tại: {level}",
+  "@reasoningBudgetSheetCurrentLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "reasoningBudgetSheetOffSubtitle": "Tắt suy luận, trả lời trực tiếp",
+  "reasoningBudgetSheetAutoSubtitle": "Để mô hình tự quyết định mức suy luận",
+  "reasoningBudgetSheetLightSubtitle": "Dùng suy luận nhẹ để trả lời câu hỏi",
+  "reasoningBudgetSheetMediumSubtitle": "Dùng suy luận vừa phải để trả lời câu hỏi",
+  "reasoningBudgetSheetHeavySubtitle": "Dùng suy luận sâu cho câu hỏi phức tạp",
+  "reasoningBudgetSheetXhighSubtitle": "Dùng độ sâu suy luận tối đa cho vấn đề khó nhất",
+  "reasoningBudgetSheetCustomLabel": "Ngân sách suy luận tùy chỉnh",
+  "reasoningBudgetSheetCustomHint": "vd. 2048 (-1 tự động, 0 tắt)",
+  "chatMessageWidgetFileNotFound": "Không tìm thấy tệp: {fileName}",
+  "@chatMessageWidgetFileNotFound": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetCannotOpenFile": "Không thể mở tệp: {message}",
+  "@chatMessageWidgetCannotOpenFile": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetOpenFileError": "Không thể mở tệp: {error}",
+  "@chatMessageWidgetOpenFileError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetCopiedToClipboard": "Đã sao chép vào clipboard",
+  "chatMessageWidgetResendTooltip": "Gửi lại",
+  "chatMessageWidgetMoreTooltip": "Nhiều hơn",
+  "chatMessageWidgetThinking": "Đang suy nghĩ...",
+  "chatMessageWidgetTranslation": "Bản dịch",
+  "chatMessageWidgetTranslating": "Đang dịch...",
+  "chatMessageWidgetCitationNotFound": "Không tìm thấy nguồn trích dẫn",
+  "chatMessageWidgetCannotOpenUrl": "Không thể mở liên kết: {url}",
+  "@chatMessageWidgetCannotOpenUrl": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetOpenLinkError": "Không thể mở liên kết",
+  "chatMessageWidgetCitationsTitle": "Trích dẫn ({count})",
+  "@chatMessageWidgetCitationsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatMessageWidgetSearchResultsTitle": "Kết quả tìm kiếm",
+  "chatMessageWidgetCitationSourcesTitle": "Nguồn trích dẫn",
+  "chatMessageWidgetRegenerateTooltip": "Tạo lại",
+  "chatMessageWidgetRegenerateConfirmTitle": "Xác nhận tạo lại",
+  "chatMessageWidgetRegenerateConfirmContent": "Tạo lại chỉ cập nhật tin nhắn này, các tin nhắn bên dưới được giữ nguyên. Tiếp tục?",
+  "chatMessageWidgetRegenerateConfirmDeleteTrailingContent": "Tạo lại sẽ xoá tất cả tin nhắn bên dưới, không thể hoàn tác. Tiếp tục?",
+  "chatMessageWidgetRegenerateConfirmCancel": "Hủy",
+  "chatMessageWidgetRegenerateConfirmOk": "Tạo lại",
+  "chatMessageWidgetStopTooltip": "Dừng",
+  "chatMessageWidgetSpeakTooltip": "Đọc",
+  "chatMessageWidgetTranslateTooltip": "Dịch",
+  "chatMessageWidgetBuiltinSearchHideNote": "Ẩn thẻ công cụ tìm kiếm tích hợp",
+  "chatMessageWidgetDeepThinking": "Suy luận sâu",
+  "chatMessageWidgetCreateMemory": "Tạo bộ nhớ",
+  "chatMessageWidgetEditMemory": "Sửa bộ nhớ",
+  "chatMessageWidgetDeleteMemory": "Xoá bộ nhớ",
+  "chatMessageWidgetWebSearch": "Tìm kiếm web: {query}",
+  "@chatMessageWidgetWebSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetBuiltinSearch": "Tìm kiếm tích hợp",
+  "chatMessageWidgetReadClipboard": "Đọc clipboard",
+  "chatMessageWidgetWriteClipboard": "Ghi clipboard",
+  "chatMessageWidgetSpeakingTitle": "Đang đọc:",
+  "chatMessageWidgetSpeakText": "Đang đọc: {text}",
+  "@chatMessageWidgetSpeakText": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetToolCall": "Gọi công cụ: {name}",
+  "@chatMessageWidgetToolCall": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetToolResult": "Kết quả công cụ: {name}",
+  "@chatMessageWidgetToolResult": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatMessageWidgetNoResultYet": "(Chưa có kết quả)",
+  "chatMessageWidgetArguments": "Đối số",
+  "chatMessageWidgetResult": "Kết quả",
+  "chatMessageWidgetImages": "Hình ảnh",
+  "chatMessageWidgetCitationsCount": "{count} trích dẫn",
+  "@chatMessageWidgetCitationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatSelectionSelectedCountTitle": "Đã chọn {count} tin nhắn",
+  "@chatSelectionSelectedCountTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatSelectionExportTxt": "TXT",
+  "chatSelectionExportMd": "MD",
+  "chatSelectionExportImage": "Hình ảnh",
+  "chatSelectionThinkingTools": "Công cụ suy luận",
+  "chatSelectionThinkingContent": "Nội dung suy luận",
+  "chatSelectionDeleteSelected": "Xoá mục đã chọn",
+  "chatSelectionSelectMessagesToDelete": "Hãy chọn tin nhắn để xoá",
+  "chatSelectionDeleteSelectedConfirm": "Xoá {count} phiên bản đã chọn? Thao tác này không thể hoàn tác.",
+  "@chatSelectionDeleteSelectedConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chatSelectionDeleteSelectedAllVersionsConfirm": "Xoá mọi phiên bản của {count} tin nhắn đã chọn? Thao tác này không thể hoàn tác.",
+  "@chatSelectionDeleteSelectedAllVersionsConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "messageExportSheetAssistant": "Trợ lý",
+  "messageExportSheetDefaultTitle": "Cuộc trò chuyện mới",
+  "messageExportSheetExporting": "Đang xuất…",
+  "messageExportSheetExportFailed": "Xuất thất bại: {error}",
+  "@messageExportSheetExportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "messageExportSheetExportedAs": "Đã xuất thành {filename}",
+  "@messageExportSheetExportedAs": {
+    "placeholders": {
+      "filename": {
+        "type": "String"
+      }
+    }
+  },
+  "displaySettingsPageEnableDollarLatexTitle": "Hiển thị inline $...$",
+  "displaySettingsPageEnableDollarLatexSubtitle": "Hiển thị toán học nội tuyến trong $...$",
+  "displaySettingsPageEnableMathTitle": "Hiển thị công thức toán học",
+  "displaySettingsPageEnableMathSubtitle": "Hiển thị công thức LaTeX (nội tuyến và khối)",
+  "displaySettingsPageEnableUserMarkdownTitle": "Hiển thị tin nhắn người dùng bằng Markdown",
+  "displaySettingsPageEnableReasoningMarkdownTitle": "Hiển thị phần suy luận bằng Markdown",
+  "displaySettingsPageEnableAssistantMarkdownTitle": "Hiển thị tin nhắn trợ lý bằng Markdown",
+  "displaySettingsPageMobileCodeBlockWrapTitle": "Tự xuống dòng khối mã trên di động",
+  "displaySettingsPageAutoCollapseCodeBlockTitle": "Tự động thu gọn khối mã",
+  "displaySettingsPageAutoCollapseCodeBlockLinesTitle": "Ngưỡng tự động thu gọn",
+  "displaySettingsPageAutoCollapseCodeBlockLinesUnit": "dòng",
+  "messageExportSheetFormatTitle": "Định dạng xuất",
+  "messageExportSheetMarkdown": "Markdown",
+  "messageExportSheetSingleMarkdownSubtitle": "Xuất tin nhắn này thành tệp Markdown",
+  "messageExportSheetBatchMarkdownSubtitle": "Xuất các tin nhắn đã chọn thành tệp Markdown",
+  "messageExportSheetPlainText": "Văn bản thuần",
+  "messageExportSheetSingleTxtSubtitle": "Xuất tin nhắn này thành tệp TXT",
+  "messageExportSheetBatchTxtSubtitle": "Xuất các tin nhắn đã chọn thành tệp TXT",
+  "messageExportSheetExportImage": "Xuất thành hình ảnh",
+  "messageExportSheetSingleExportImageSubtitle": "Kết xuất tin nhắn này thành ảnh PNG",
+  "messageExportSheetBatchExportImageSubtitle": "Kết xuất các tin nhắn đã chọn thành ảnh PNG",
+  "messageExportSheetShowThinkingAndToolCards": "Hiển thị suy luận sâu và thẻ công cụ",
+  "messageExportSheetShowThinkingContent": "Hiển thị nội dung suy luận",
+  "messageExportThinkingContentLabel": "Nội dung suy luận",
+  "messageExportSheetDateTimeWithSecondsPattern": "yyyy-MM-dd HH:mm:ss",
+  "exportDisclaimerAiGenerated": "Nội dung do AI tạo. Hãy kiểm tra cẩn thận.",
+  "imagePreviewSheetSaveImage": "Lưu hình ảnh",
+  "imagePreviewSheetSaveSuccess": "Đã lưu vào thư viện",
+  "imagePreviewSheetSaveFailed": "Lưu thất bại: {error}",
+  "@imagePreviewSheetSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "sideDrawerMenuRename": "Đổi tên",
+  "sideDrawerMenuPin": "Ghim",
+  "sideDrawerMenuUnpin": "Bỏ ghim",
+  "sideDrawerMenuRegenerateTitle": "Tạo lại tiêu đề",
+  "sideDrawerMenuMoveTo": "Di chuyển tới",
+  "sideDrawerMenuDelete": "Xoá",
+  "sideDrawerDeleteSnackbar": "Đã xoá \"{title}\"",
+  "@sideDrawerDeleteSnackbar": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "sideDrawerRenameHint": "Nhập tên mới",
+  "sideDrawerCancel": "Hủy",
+  "sideDrawerOK": "OK",
+  "sideDrawerSave": "Lưu",
+  "sideDrawerGreetingMorning": "Chào buổi sáng 👋",
+  "sideDrawerGreetingNoon": "Chào buổi trưa 👋",
+  "sideDrawerGreetingAfternoon": "Chào buổi chiều 👋",
+  "sideDrawerGreetingEvening": "Chào buổi tối 👋",
+  "sideDrawerDateToday": "Hôm nay",
+  "sideDrawerDateYesterday": "Hôm qua",
+  "sideDrawerDateShortPattern": "MMM d",
+  "sideDrawerDateFullPattern": "MMM d, yyyy",
+  "sideDrawerSearchHint": "Tìm trong trợ lý hiện tại",
+  "sideDrawerSearchAssistantsHint": "Tìm kiếm trợ lý",
+  "sideDrawerTopicSearchModeLabel": "Chế độ chủ đề",
+  "sideDrawerGlobalSearchModeLabel": "Chế độ toàn cục",
+  "sideDrawerSearchModeSwipeToTopicHint": "Vuốt thanh tìm kiếm để tìm theo chủ đề",
+  "sideDrawerSearchModeSwipeToGlobalHint": "Vuốt thanh tìm kiếm để tìm toàn cục",
+  "sideDrawerGlobalSearchHint": "Tìm kiếm mọi phiên",
+  "sideDrawerGlobalSearchEmptyHint": "Tìm trong tiêu đề và tin nhắn",
+  "sideDrawerGlobalSearchNoResults": "Không có phiên phù hợp",
+  "sideDrawerGlobalSearchResultCount": "{count} kết quả",
+  "@sideDrawerGlobalSearchResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sideDrawerUpdateTitle": "Phiên bản mới: {version}",
+  "@sideDrawerUpdateTitle": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "sideDrawerUpdateTitleWithBuild": "Phiên bản mới: {version} ({build})",
+  "@sideDrawerUpdateTitleWithBuild": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "int"
+      }
+    }
+  },
+  "sideDrawerLinkCopied": "Đã sao chép liên kết",
+  "sideDrawerPinnedLabel": "Đã ghim",
+  "sideDrawerHistory": "Lịch sử",
+  "sideDrawerSettings": "Cài đặt",
+  "sideDrawerChooseAssistantTitle": "Chọn trợ lý",
+  "sideDrawerChooseImage": "Chọn hình ảnh",
+  "sideDrawerChooseEmoji": "Chọn emoji",
+  "sideDrawerEnterLink": "Nhập liên kết",
+  "sideDrawerImportFromQQ": "Nhập từ QQ",
+  "sideDrawerReset": "Đặt lại",
+  "sideDrawerEmojiDialogTitle": "Chọn emoji",
+  "sideDrawerEmojiDialogHint": "Nhập hoặc dán emoji bất kỳ",
+  "sideDrawerImageUrlDialogTitle": "Nhập URL hình ảnh",
+  "sideDrawerImageUrlDialogHint": "e.g. https://example.com/avatar.png",
+  "sideDrawerQQAvatarDialogTitle": "Nhập từ QQ",
+  "sideDrawerQQAvatarInputHint": "Nhập số QQ (5–12 chữ số)",
+  "sideDrawerQQAvatarFetchFailed": "Không thể lấy ảnh đại diện QQ ngẫu nhiên. Vui lòng thử lại.",
+  "sideDrawerRandomQQ": "Ngẫu nhiên QQ",
+  "sideDrawerGalleryOpenError": "Không thể mở thư viện. Vui lòng thử nhập URL hình ảnh.",
+  "sideDrawerGeneralImageError": "Đã xảy ra lỗi. Vui lòng thử nhập URL hình ảnh.",
+  "sideDrawerSetNicknameTitle": "Đặt biệt danh",
+  "sideDrawerNicknameLabel": "Biệt danh",
+  "sideDrawerNicknameHint": "Nhập biệt danh mới",
+  "sideDrawerRename": "Đổi tên",
+  "chatInputBarHint": "Nhập tin nhắn cho AI",
+  "chatInputBarSelectModelTooltip": "Chọn mô hình",
+  "chatInputBarOnlineSearchTooltip": "Tìm kiếm online",
+  "chatInputBarReasoningStrengthTooltip": "Độ mạnh suy luận",
+  "chatInputBarMcpServersTooltip": "MCP Server",
+  "chatInputBarMoreTooltip": "Thêm",
+  "chatInputBarImageMode": "Chế độ hình ảnh",
+  "chatInputBarDisableImageModeTooltip": "Tắt chế độ hình ảnh",
+  "chatInputBarQueuedPending": "Đã thêm vào hàng đợi gửi",
+  "chatInputBarQueuedCancel": "Hủy hàng đợi",
+  "chatInputBarInsertNewline": "Xuống dòng",
+  "chatInputBarExpand": "Mở rộng",
+  "chatInputBarCollapse": "Thu gọn",
+  "mcpPageBackTooltip": "Quay lại",
+  "mcpPageAddMcpTooltip": "Thêm MCP",
+  "mcpPageNoServers": "Không có MCP server nào",
+  "mcpPageErrorDialogTitle": "Lỗi kết nối",
+  "mcpPageErrorNoDetails": "Không có chi tiết",
+  "mcpPageClose": "Đóng",
+  "mcpPageReconnect": "Kết nối lại",
+  "mcpPageStatusConnected": "Đã kết nối",
+  "mcpPageStatusConnecting": "Đang kết nối…",
+  "mcpPageStatusDisconnected": "Đã ngắt kết nối",
+  "mcpPageStatusDisabled": "Đã tắt",
+  "mcpPageToolsCount": "Công cụ: {enabled}/{total}",
+  "@mcpPageToolsCount": {
+    "placeholders": {
+      "enabled": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mcpPageConnectionFailed": "Kết nối thất bại",
+  "mcpPageDetails": "Chi tiết",
+  "mcpPageDelete": "Xoá",
+  "mcpPageConfirmDeleteTitle": "Xác nhận xoá",
+  "mcpPageConfirmDeleteContent": "Có thể bấm Hoàn tác để khôi phục. Xóa?",
+  "mcpPageServerDeleted": "Đã xóa server",
+  "mcpPageUndo": "Hoàn tác",
+  "mcpPageCancel": "Hủy",
+  "mcpConversationSheetTitle": "MCP Server",
+  "mcpConversationSheetSubtitle": "Chọn các server được bật cho cuộc trò chuyện này",
+  "mcpConversationSheetSelectAll": "Chọn tất cả",
+  "mcpConversationSheetClearAll": "Bỏ chọn tất cả",
+  "mcpConversationSheetNoRunning": "Không có MCP server nào đang chạy",
+  "mcpConversationSheetConnected": "Đã kết nối",
+  "mcpConversationSheetToolsCount": "Công cụ: {enabled}/{total}",
+  "@mcpConversationSheetToolsCount": {
+    "placeholders": {
+      "enabled": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mcpServerEditSheetEnabledLabel": "Đã bật",
+  "mcpServerEditSheetNameLabel": "Tên",
+  "mcpServerEditSheetTransportLabel": "Transport",
+  "mcpServerEditSheetSseRetryHint": "Nếu SSE lỗi, hãy thử lại vài lần",
+  "mcpServerEditSheetUrlLabel": "URL máy chủ",
+  "mcpServerEditSheetCustomHeadersTitle": "Header tùy chỉnh",
+  "mcpServerEditSheetHeaderNameLabel": "Tên header",
+  "mcpServerEditSheetHeaderNameHint": "e.g. Authorization",
+  "mcpServerEditSheetHeaderValueLabel": "Giá trị header",
+  "mcpServerEditSheetHeaderValueHint": "e.g. Bearer xxxxxx",
+  "mcpServerEditSheetRemoveHeaderTooltip": "Xoá",
+  "mcpServerEditSheetAddHeader": "Thêm header",
+  "mcpServerEditSheetTitleEdit": "Sửa MCP",
+  "mcpServerEditSheetTitleAdd": "Thêm MCP",
+  "mcpServerEditSheetSyncToolsTooltip": "Đồng bộ công cụ",
+  "mcpServerEditSheetTabBasic": "Cơ bản",
+  "mcpServerEditSheetTabTools": "Công cụ",
+  "mcpServerEditSheetNoToolsHint": "Không có công cụ, nhấn làm mới để đồng bộ",
+  "mcpServerEditSheetCancel": "Hủy",
+  "mcpServerEditSheetSave": "Lưu",
+  "mcpServerEditSheetUrlRequired": "Vui lòng nhập URL máy chủ",
+  "defaultModelPageBackTooltip": "Quay lại",
+  "defaultModelPageTitle": "Mô hình mặc định",
+  "defaultModelPageChatModelTitle": "Mô hình chat",
+  "defaultModelPageChatModelSubtitle": "Mô hình chat mặc định toàn cục",
+  "defaultModelPageTitleModelTitle": "Mô hình tóm tắt tiêu đề",
+  "defaultModelPageTitleModelSubtitle": "Dùng để tóm tắt tiêu đề cuộc trò chuyện; ưu tiên model nhanh và rẻ",
+  "defaultModelPageSummaryModelTitle": "Mô hình tóm tắt",
+  "defaultModelPageSummaryModelSubtitle": "Dùng để tạo tóm tắt cuộc trò chuyện; ưu tiên model nhanh và rẻ",
+  "defaultModelPageSuggestionModelTitle": "Mô hình gợi ý chat",
+  "defaultModelPageSuggestionModelSubtitle": "Dùng để tạo gợi ý tiếp theo sau phản hồi của trợ lý. Tắt cho đến khi chọn model.",
+  "assistantEditRecentChatsSummaryFrequencyTitle": "Tần suất làm mới tóm tắt",
+  "assistantEditRecentChatsSummaryFrequencyDescription": "Làm mới tóm tắt chat gần đây sau số lượng tin nhắn mới đã chọn.",
+  "assistantEditRecentChatsSummaryFrequencyOption": "Mỗi {count}",
+  "@assistantEditRecentChatsSummaryFrequencyOption": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "assistantEditRecentChatsSummaryFrequencyCustomButton": "Tùy chỉnh",
+  "assistantEditRecentChatsSummaryFrequencyCustomTitle": "Tùy chỉnh tần suất tóm tắt",
+  "assistantEditRecentChatsSummaryFrequencyCustomDescription": "Nhập số tin nhắn mới cần tích lũy trước khi làm mới tóm tắt chat gần đây.",
+  "assistantEditRecentChatsSummaryFrequencyCustomLabel": "Số tin nhắn mới",
+  "assistantEditRecentChatsSummaryFrequencyCustomHint": "Nhập số lớn hơn 0",
+  "assistantEditRecentChatsSummaryFrequencyCustomInvalid": "Hãy nhập số nguyên lớn hơn 0",
+  "defaultModelPageTranslateModelTitle": "Mô hình dịch",
+  "defaultModelPageTranslateModelSubtitle": "Dùng để dịch nội dung tin nhắn; ưu tiên model nhanh và chính xác",
+  "defaultModelPageOcrModelTitle": "Mô hình OCR",
+  "defaultModelPageOcrModelSubtitle": "Dùng để trích xuất văn bản và mô tả từ hình ảnh",
+  "defaultModelPageOcrModelRequiresImageInput": "Chọn model có hỗ trợ đầu vào hình ảnh cho OCR",
+  "defaultModelPagePromptLabel": "Prompt",
+  "defaultModelPageTitlePromptHint": "Nhập mẫu prompt để tóm tắt tiêu đề",
+  "defaultModelPageSummaryPromptHint": "Nhập mẫu prompt để tạo tóm tắt",
+  "defaultModelPageSuggestionPromptHint": "Nhập mẫu prompt cho gợi ý chat",
+  "defaultModelPageTranslatePromptHint": "Nhập mẫu prompt để dịch",
+  "defaultModelPageOcrPromptHint": "Nhập mẫu prompt để hiểu hình ảnh bằng OCR",
+  "defaultModelPageResetDefault": "Đặt lại mặc định",
+  "defaultModelPageSave": "Lưu",
+  "defaultModelPageTitleVars": "Biến: nội dung: {contentVar}, ngôn ngữ: {localeVar}",
+  "@defaultModelPageTitleVars": {
+    "placeholders": {
+      "contentVar": {
+        "type": "String"
+      },
+      "localeVar": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultModelPageSummaryVars": "Biến: tóm tắt trước đó: {previousSummaryVar}, tin nhắn mới: {userMessagesVar}",
+  "@defaultModelPageSummaryVars": {
+    "placeholders": {
+      "previousSummaryVar": {
+        "type": "String"
+      },
+      "userMessagesVar": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultModelPageSuggestionVars": "Biến: cuộc trò chuyện: {contentVar}, ngôn ngữ: {localeVar}",
+  "@defaultModelPageSuggestionVars": {
+    "placeholders": {
+      "contentVar": {
+        "type": "String"
+      },
+      "localeVar": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultModelPageCompressModelTitle": "Mô hình nén",
+  "defaultModelPageCompressModelSubtitle": "Dùng để nén ngữ cảnh cuộc trò chuyện; ưu tiên model nhanh",
+  "defaultModelPageCompressPromptHint": "Nhập mẫu prompt để nén ngữ cảnh",
+  "defaultModelPageCompressVars": "Biến: cuộc trò chuyện: {contentVar}, ngôn ngữ: {localeVar}",
+  "@defaultModelPageCompressVars": {
+    "placeholders": {
+      "contentVar": {
+        "type": "String"
+      },
+      "localeVar": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultModelPageTranslateVars": "Biến: văn bản nguồn: {sourceVar}, ngôn ngữ đích: {targetVar}",
+  "@defaultModelPageTranslateVars": {
+    "placeholders": {
+      "sourceVar": {
+        "type": "String"
+      },
+      "targetVar": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultModelPageUseCurrentModel": "Sử dụng model chat hiện tại",
+  "defaultModelPageNotEnabled": "Chưa bật",
+  "translatePagePasteButton": "Dán",
+  "translatePageCopyResult": "Sao chép kết quả",
+  "translatePageClearAll": "Xóa tất cả",
+  "translatePageInputHint": "Nhập văn bản cần dịch…",
+  "translatePageOutputHint": "Kết quả dịch sẽ xuất hiện ở đây…",
+  "modelDetailSheetAddModel": "Thêm mô hình",
+  "modelDetailSheetEditModel": "Sửa mô hình",
+  "modelDetailSheetBasicTab": "Cơ bản",
+  "modelDetailSheetAdvancedTab": "Nâng cao",
+  "modelDetailSheetBuiltinToolsTab": "Công cụ tích hợp",
+  "modelDetailSheetModelIdLabel": "ID mô hình",
+  "modelDetailSheetModelIdHint": "Bắt buộc, nên dùng chữ thường, số hoặc dấu gạch ngang",
+  "modelDetailSheetModelIdDisabledHint": "{modelId}",
+  "@modelDetailSheetModelIdDisabledHint": {
+    "placeholders": {
+      "modelId": {
+        "type": "String"
+      }
+    }
+  },
+  "modelDetailSheetModelNameLabel": "Tên mô hình",
+  "modelDetailSheetModelTypeLabel": "Loại mô hình",
+  "modelDetailSheetChatType": "Trò chuyện",
+  "modelDetailSheetEmbeddingType": "Embedding",
+  "modelDetailSheetInputModesLabel": "Chế độ đầu vào",
+  "modelDetailSheetOutputModesLabel": "Chế độ đầu ra",
+  "modelDetailSheetAbilitiesLabel": "Khả năng",
+  "modelDetailSheetTextMode": "Văn bản",
+  "modelDetailSheetImageMode": "Hình ảnh",
+  "modelDetailSheetToolsAbility": "Công cụ",
+  "modelDetailSheetReasoningAbility": "Suy luận",
+  "modelDetailSheetProviderOverrideDescription": "Ghi đè nhà cung cấp: tùy chỉnh nhà cung cấp cho một mô hình cụ thể.",
+  "modelDetailSheetAddProviderOverride": "Thêm provider override",
+  "modelDetailSheetCustomHeadersTitle": "Header tùy chỉnh",
+  "modelDetailSheetAddHeader": "Thêm header",
+  "modelDetailSheetCustomBodyTitle": "Body tùy chỉnh",
+  "modelFetchInvertTooltip": "Đảo ngược",
+  "modelDetailSheetSaveFailedMessage": "Lưu thất bại. Hãy thử lại.",
+  "modelDetailSheetAddBody": "Thêm Body",
+  "modelDetailSheetBuiltinToolsDescription": "Công cụ tích hợp chỉ hỗ trợ API chính thức.",
+  "modelDetailSheetBuiltinToolsUnsupportedHint": "Nhà cung cấp hiện tại không hỗ trợ các công cụ tích hợp này.",
+  "modelDetailSheetSearchTool": "Tìm kiếm",
+  "modelDetailSheetSearchToolDescription": "Bật tích hợp Google Search",
+  "modelDetailSheetUrlContextTool": "Ngữ cảnh URL",
+  "modelDetailSheetUrlContextToolDescription": "Bật tải nội dung từ URL",
+  "modelDetailSheetCodeExecutionTool": "Code Execution",
+  "modelDetailSheetCodeExecutionToolDescription": "Bật công cụ thực thi mã",
+  "modelDetailSheetYoutubeTool": "YouTube",
+  "modelDetailSheetYoutubeToolDescription": "Bật tải URL YouTube (tự phát hiện liên kết trong prompt)",
+  "modelDetailSheetOpenaiBuiltinToolsResponsesOnlyHint": "Yêu cầu OpenAI Responses API.",
+  "modelDetailSheetOpenaiCodeInterpreterTool": "Code Interpreter",
+  "modelDetailSheetOpenaiCodeInterpreterToolDescription": "Bật công cụ code interpreter (container tự động, giới hạn bộ nhớ 4GB)",
+  "modelDetailSheetOpenaiImageGenerationTool": "Tạo hình ảnh",
+  "modelDetailSheetOpenaiImageGenerationToolDescription": "Bật công cụ tạo hình ảnh",
+  "modelDetailSheetCancelButton": "Hủy",
+  "modelDetailSheetAddButton": "Thêm",
+  "modelDetailSheetConfirmButton": "Xác nhận",
+  "modelDetailSheetInvalidIdError": "Hãy nhập ID model hợp lệ (>=2 ký tự)",
+  "modelDetailSheetModelIdExistsError": "ID mô hình đã tồn tại",
+  "modelDetailSheetHeaderKeyHint": "Khóa header",
+  "modelDetailSheetHeaderValueHint": "Giá trị header",
+  "modelDetailSheetBodyKeyHint": "Khóa body",
+  "modelDetailSheetBodyJsonHint": "Body JSON",
+  "modelSelectSheetSearchHint": "Tìm mô hình hoặc nhà cung cấp",
+  "modelSelectSheetFavoritesSection": "Yêu thích",
+  "modelSelectSheetFavoriteTooltip": "Yêu thích",
+  "modelSelectSheetChatType": "Trò chuyện",
+  "modelSelectSheetEmbeddingType": "Embedding",
+  "providerDetailPageShareTooltip": "Chia sẻ",
+  "providerDetailPageDeleteProviderTooltip": "Xoá nhà cung cấp",
+  "providerDetailPageDeleteProviderTitle": "Xoá nhà cung cấp",
+  "providerDetailPageDeleteProviderContent": "Bạn có chắc muốn xoá nhà cung cấp này? Thao tác này không thể hoàn tác.",
+  "providerDetailPageCancelButton": "Hủy",
+  "providerDetailPageDeleteButton": "Xoá",
+  "providerDetailPageProviderDeletedSnackbar": "Đã xoá nhà cung cấp",
+  "providerDetailPageConfigTab": "Cấu hình",
+  "providerDetailPageModelsTab": "Mô hình",
+  "providerDetailPageNetworkTab": "Mạng",
+  "providerDetailPageEnabledTitle": "Đã bật",
+  "providerDetailPageManageSectionTitle": "Quản lý",
+  "providerDetailPageNameLabel": "Tên",
+  "providerDetailPageApiKeyHint": "Để trống để dùng mặc định",
+  "providerDetailPageHideTooltip": "Ẩn",
+  "providerDetailPageShowTooltip": "Hiển thị",
+  "providerDetailPageApiPathLabel": "API Path",
+  "providerDetailPageResponseApiTitle": "Response API (/responses)",
+  "providerDetailPageAihubmixAppCodeLabel": "APP-Code (giảm 10%)",
+  "providerDetailPageAihubmixAppCodeHelp": "Thêm header APP-Code vào request để được giảm 10%. Chỉ áp dụng cho AIhubmix.",
+  "providerDetailPageClaudePromptCachingTitle": "Claude Prompt Caching",
+  "providerDetailPageClaudePromptCachingHelp": "Thêm cache_control vào request Claude qua Anthropic hoặc OpenRouter.",
+  "providerDetailPageClaudePromptCachingTtlTitle": "Cache TTL",
+  "providerDetailPageClaudePromptCachingTtlHelp": "Mặc định là 5 phút. 1 giờ tốn chi phí ghi cao hơn nhưng có thể giảm việc dựng lại trong các cuộc trò chuyện dài.",
+  "providerDetailPageClaudePromptCachingTtl5m": "5 phút",
+  "providerDetailPageClaudePromptCachingTtl1h": "1 giờ",
+  "providerDetailPageBalanceTitle": "Số dư tài khoản",
+  "providerDetailPageBalanceInfo": "Lấy số dư tài khoản",
+  "providerDetailPageBalanceApiPathLabel": "Balance API Path",
+  "providerDetailPageBalanceResultPathLabel": "Result JSON Path",
+  "providerDetailPageBalanceQueryButton": "Kiểm tra số dư",
+  "providerDetailPageBalanceQuerying": "Đang kiểm tra...",
+  "providerDetailPageBalanceResetDefaultsButton": "Đặt lại",
+  "providerDetailPageBalanceResetDefaultsTooltip": "Đặt lại cài đặt số dư",
+  "providerDetailPageBalanceResult": "Số dư: {value}",
+  "@providerDetailPageBalanceResult": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "providerDetailPageBalanceError": "Truy vấn số dư thất bại: {message}",
+  "@providerDetailPageBalanceError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "providerDetailPageVertexAiTitle": "Vertex AI",
+  "providerDetailPageLocationLabel": "Vị trí",
+  "providerDetailPageProjectIdLabel": "ID dự án",
+  "providerDetailPageServiceAccountJsonLabel": "Service Account JSON (dán hoặc nhập)",
+  "providerDetailPageImportJsonButton": "Nhập JSON",
+  "providerDetailPageImportJsonReadFailedMessage": "Không đọc được tệp",
+  "providerDetailPageTestButton": "Kiểm tra",
+  "providerDetailPageSaveButton": "Lưu",
+  "providerDetailPageProviderRemovedMessage": "Đã xóa nhà cung cấp",
+  "providerDetailPageNoModelsTitle": "Không có mô hình",
+  "providerDetailPageNoModelsSubtitle": "Nhấn các nút bên dưới để thêm mô hình",
+  "providerDetailPageDeleteModelButton": "Xoá",
+  "providerDetailPageConfirmDeleteTitle": "Xác nhận xoá",
+  "providerDetailPageConfirmDeleteContent": "Có thể bấm Hoàn tác để khôi phục. Xóa?",
+  "providerDetailPageModelDeletedSnackbar": "Đã xoá model",
+  "providerDetailPageUndoButton": "Hoàn tác",
+  "providerDetailPageAddNewModelButton": "Thêm mô hình",
+  "providerDetailPageFetchModelsButton": "Lấy",
+  "providerDetailPageEnableProxyTitle": "Bật proxy",
+  "providerDetailPageHostLabel": "Máy chủ",
+  "providerDetailPagePortLabel": "Cổng",
+  "providerDetailPageUsernameOptionalLabel": "Tên người dùng (tùy chọn)",
+  "providerDetailPagePasswordOptionalLabel": "Mật khẩu (tùy chọn)",
+  "providerDetailPageSavedSnackbar": "Đã lưu",
+  "providerDetailPageEmbeddingsGroupTitle": "Embedding",
+  "providerDetailPageOtherModelsGroupTitle": "Khác",
+  "providerDetailPageRemoveGroupTooltip": "Xóa nhóm",
+  "providerDetailPageAddGroupTooltip": "Thêm nhóm",
+  "providerDetailPageFilterHint": "Nhập tên mô hình để lọc",
+  "providerDetailPageDeleteText": "Xoá",
+  "providerDetailPageEditTooltip": "Sửa",
+  "providerDetailPageTestConnectionTitle": "Kiểm tra kết nối",
+  "providerDetailPageSelectModelButton": "Chọn Mô hình",
+  "providerDetailPageChangeButton": "Đổi",
+  "providerDetailPageUseStreamingLabel": "Dùng streaming",
+  "providerDetailPageTestingMessage": "Đang kiểm tra…",
+  "providerDetailPageTestSuccessMessage": "Thành công",
+  "providersPageTitle": "Nhà cung cấp",
+  "providersPageImportTooltip": "Nhập",
+  "providersPageAddTooltip": "Thêm",
+  "providersPageSearchHint": "Tìm kiếm nhà cung cấp hoặc nhóm",
+  "providersPageProviderAddedSnackbar": "Đã thêm nhà cung cấp",
+  "providerGroupsGroupLabel": "Nhóm",
+  "providerGroupsOther": "Khác",
+  "providerGroupsOtherUngroupedOption": "Khác (chưa thuộc nhóm)",
+  "providerGroupsPickerTitle": "Chọn nhóm",
+  "providerGroupsManageTitle": "Quản lý nhóm",
+  "providerGroupsManageAction": "Quản lý nhóm",
+  "providerGroupsCreateNewGroupAction": "Nhóm mới…",
+  "providerGroupsCreateDialogTitle": "Nhóm mới",
+  "providerGroupsNameHint": "Tên nhóm",
+  "providerGroupsCreateDialogCancel": "Hủy",
+  "providerGroupsCreateDialogOk": "Tạo",
+  "providerGroupsCreateFailedToast": "Không thể tạo nhóm",
+  "providerGroupsDeleteConfirmTitle": "Xoá nhóm?",
+  "providerGroupsDeleteConfirmContent": "Các nhà cung cấp trong nhóm này sẽ được chuyển sang “Khác”.",
+  "providerGroupsDeleteConfirmCancel": "Hủy",
+  "providerGroupsDeleteConfirmOk": "Xoá",
+  "providerGroupsDeletedToast": "Đã xoá nhóm",
+  "providerGroupsEmptyState": "Chưa có nhóm nào.",
+  "providerGroupsExpandToMoveToast": "Hãy mở rộng nhóm trước.",
+  "providersPageSiliconFlowName": "SiliconFlow",
+  "providersPageAliyunName": "Aliyun",
+  "providersPageZhipuName": "Zhipu AI",
+  "providersPageByteDanceName": "ByteDance",
+  "providersPageEnabledStatus": "ON",
+  "providersPageDisabledStatus": "OFF",
+  "providersPageModelsCountSuffix": " mô hình",
+  "providersPageModelsCountSingleSuffix": " mô hình",
+  "addProviderSheetTitle": "Thêm nhà cung cấp",
+  "addProviderSheetEnabledLabel": "Đã bật",
+  "addProviderSheetNameLabel": "Tên",
+  "addProviderSheetApiPathLabel": "API Path",
+  "addProviderSheetVertexAiLocationLabel": "Vị trí",
+  "addProviderSheetVertexAiProjectIdLabel": "ID dự án",
+  "addProviderSheetVertexAiServiceAccountJsonLabel": "Service Account JSON (dán hoặc nhập)",
+  "addProviderSheetImportJsonButton": "Nhập JSON",
+  "addProviderSheetCancelButton": "Hủy",
+  "addProviderSheetAddButton": "Thêm",
+  "importProviderSheetTitle": "Nhập nhà cung cấp",
+  "importProviderSheetScanQrTooltip": "Quét QR",
+  "importProviderSheetFromGalleryTooltip": "Từ thư viện",
+  "importProviderSheetImportSuccessMessage": "Đã nhập {count} nhà cung cấp",
+  "@importProviderSheetImportSuccessMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importProviderSheetImportFailedMessage": "Nhập thất bại: {error}",
+  "@importProviderSheetImportFailedMessage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "importProviderSheetDescription": "Dán chuỗi chia sẻ (hỗ trợ nhiều dòng) hoặc JSON ChatBox",
+  "importProviderSheetInputHint": "ai-provider:v1:... hoặc JSON",
+  "importProviderSheetCancelButton": "Hủy",
+  "importProviderSheetImportButton": "Nhập",
+  "shareProviderSheetTitle": "Chia sẻ Nhà cung cấp",
+  "shareProviderSheetDescription": "Sao chép hoặc chia sẻ qua mã QR.",
+  "shareProviderSheetCopiedMessage": "Đã sao chép",
+  "shareProviderSheetCopyButton": "Sao chép",
+  "shareProviderSheetShareButton": "Chia sẻ",
+  "desktopProviderContextMenuShare": "Chia sẻ",
+  "desktopProviderShareCopyText": "Sao chép mã",
+  "desktopProviderShareCopyQr": "Sao chép QR",
+  "providerDetailPageApiBaseUrlLabel": "URL gốc API",
+  "providerDetailPageModelsTitle": "Mô hình",
+  "providerModelsGetButton": "Lấy",
+  "providerDetailPageCapsVision": "Thị giác",
+  "providerDetailPageCapsImage": "Hình ảnh",
+  "providerDetailPageCapsTool": "Công cụ",
+  "providerDetailPageCapsReasoning": "Suy luận",
+  "qrScanPageTitle": "Quét QR",
+  "qrScanPageInstruction": "Căn mã QR vào trong khung",
+  "searchServicesPageBackTooltip": "Quay lại",
+  "searchServicesPageTitle": "Dịch vụ tìm kiếm",
+  "searchServicesPageDone": "Xong",
+  "searchServicesPageEdit": "Sửa",
+  "searchServicesPageAddProvider": "Thêm nhà cung cấp",
+  "searchServicesPageSearchProviders": "Tìm kiếm Nhà cung cấp",
+  "searchServicesPageGeneralOptions": "Tùy chọn chung",
+  "searchServicesPageAutoTestTitle": "Tự động kiểm tra kết nối khi khởi động",
+  "searchServicesPageMaxResults": "Số kết quả tối đa",
+  "searchServicesPageTimeoutSeconds": "Thời gian chờ (giây)",
+  "searchServicesPageAtLeastOneServiceRequired": "Cần ít nhất một dịch vụ tìm kiếm.",
+  "searchServicesPageTestingStatus": "Đang kiểm tra…",
+  "searchServicesPageConnectedStatus": "Đã kết nối",
+  "searchServicesPageFailedStatus": "Thất bại",
+  "searchServicesPageNotTestedStatus": "Chưa kiểm tra",
+  "searchServicesPageEditServiceTooltip": "Sửa dịch vụ",
+  "searchServicesPageTestConnectionTooltip": "Kiểm tra kết nối",
+  "searchServicesPageDeleteServiceTooltip": "Xóa dịch vụ",
+  "searchServicesPageConfiguredStatus": "Đã cấu hình",
+  "miniMapTitle": "Minimap",
+  "miniMapTooltip": "Minimap",
+  "miniMapScrollToBottomTooltip": "Cuộn xuống cuối",
+  "searchServicesPageApiKeyRequiredStatus": "Yêu cầu khóa API",
+  "searchServicesPageUrlRequiredStatus": "Yêu cầu URL",
+  "searchServicesAddDialogTitle": "Thêm dịch vụ tìm kiếm",
+  "searchServicesAddDialogServiceType": "Loại dịch vụ",
+  "searchServicesAddDialogBingLocal": "Cục bộ",
+  "searchServicesAddDialogCancel": "Hủy",
+  "searchServicesAddDialogAdd": "Thêm",
+  "searchServicesAddDialogApiKeyRequired": "Cần có API Key",
+  "searchServicesFieldCustomUrlOptional": "URL tùy chỉnh (tùy chọn)",
+  "searchServicesDialogApiKey": "Khóa API",
+  "searchServicesDialogModel": "Mô hình",
+  "searchServicesDialogSystemPrompt": "System Prompt",
+  "searchServicesAddDialogInstanceUrl": "URL phiên bản",
+  "searchServicesAddDialogUrlRequired": "Cần có URL",
+  "searchServicesAddDialogEnginesOptional": "Công cụ (tùy chọn)",
+  "searchServicesAddDialogLanguageOptional": "Ngôn ngữ (tùy chọn)",
+  "searchServicesAddDialogUsernameOptional": "Tên người dùng (tùy chọn)",
+  "searchServicesAddDialogPasswordOptional": "Mật khẩu (tùy chọn)",
+  "searchServicesAddDialogRegionOptional": "Vùng (tùy chọn, mặc định: us-en)",
+  "searchServicesEditDialogEdit": "Sửa",
+  "searchServicesEditDialogCancel": "Hủy",
+  "searchServicesEditDialogSave": "Lưu",
+  "searchServicesEditDialogBingLocalNoConfig": "Bing Local search không cần cấu hình bắt buộc.",
+  "searchServicesEditDialogApiKeyRequired": "Cần có API Key",
+  "searchServicesEditDialogInstanceUrl": "URL phiên bản",
+  "searchServicesEditDialogUrlRequired": "Cần có URL",
+  "searchServicesEditDialogEnginesOptional": "Công cụ (tùy chọn)",
+  "searchServicesEditDialogLanguageOptional": "Ngôn ngữ (tùy chọn)",
+  "searchServicesEditDialogUsernameOptional": "Tên người dùng (tùy chọn)",
+  "searchServicesEditDialogPasswordOptional": "Mật khẩu (tùy chọn)",
+  "searchServicesEditDialogRegionOptional": "Vùng (tùy chọn, mặc định: us-en)",
+  "searchSettingsSheetTitle": "Cài đặt tìm kiếm",
+  "searchSettingsSheetBuiltinSearchTitle": "Tìm kiếm tích hợp",
+  "searchSettingsSheetBuiltinSearchDescription": "Bật tìm kiếm tích hợp của mô hình",
+  "searchSettingsSheetClaudeDynamicSearchTitle": "Tìm kiếm tích hợp (mới)",
+  "searchSettingsSheetClaudeDynamicSearchDescription": "Dùng `web_search_20260209` với lọc động trên các mô hình Claude chính thức được hỗ trợ.",
+  "searchSettingsSheetWebSearchTitle": "Tìm kiếm web",
+  "searchSettingsSheetWebSearchDescription": "Bật tìm kiếm web trong chat",
+  "searchSettingsSheetOpenSearchServicesTooltip": "Mở dịch vụ tìm kiếm",
+  "searchSettingsSheetNoServicesMessage": "Chưa có dịch vụ. Hãy thêm từ Dịch vụ tìm kiếm.",
+  "aboutPageEasterEggMessage": "Cảm ơn bạn đã khám phá!\n (Chưa có Easter egg)",
+  "aboutPageEasterEggButton": "Tuyệt!",
+  "aboutPageAppName": "Kelivo",
+  "aboutPageAppDescription": "Trợ lý AI mã nguồn mở",
+  "aboutPageNoQQGroup": "Chưa có QQ group",
+  "aboutPageVersion": "Phiên bản",
+  "aboutPageVersionDetail": "{version} / {buildNumber}",
+  "@aboutPageVersionDetail": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "buildNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutPageSystem": "Hệ thống",
+  "aboutPageLoadingPlaceholder": "...",
+  "aboutPageUnknownPlaceholder": "-",
+  "aboutPagePlatformMacos": "macOS",
+  "aboutPagePlatformWindows": "Windows",
+  "aboutPagePlatformLinux": "Linux",
+  "aboutPagePlatformAndroid": "Android",
+  "aboutPagePlatformIos": "iOS",
+  "aboutPagePlatformOther": "Khác ({os})",
+  "@aboutPagePlatformOther": {
+    "placeholders": {
+      "os": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutPageWebsite": "Trang web",
+  "aboutPageGithub": "GitHub",
+  "aboutPageLicense": "Giấy phép",
+  "aboutPageJoinQQGroup": "Tham gia QQ Group của chúng tôi",
+  "aboutPageJoinDiscord": "Tham gia Discord của chúng tôi",
+  "displaySettingsPageShowUserAvatarTitle": "Hiển thị ảnh đại diện người dùng",
+  "displaySettingsPageShowUserAvatarSubtitle": "Hiển thị ảnh đại diện người dùng trong tin nhắn chat",
+  "displaySettingsPageShowUserNameTimestampTitle": "Hiển thị tên người dùng và dấu thời gian",
+  "displaySettingsPageShowUserNameTimestampSubtitle": "Hiển thị tên người dùng và dấu thời gian bên dưới trong tin nhắn chat",
+  "displaySettingsPageShowUserNameTitle": "Hiển thị tên người dùng",
+  "displaySettingsPageShowUserTimestampTitle": "Hiển thị dấu thời gian người dùng",
+  "displaySettingsPageShowUserMessageActionsTitle": "Hiển thị thao tác tin nhắn người dùng",
+  "displaySettingsPageShowUserMessageActionsSubtitle": "Hiển thị các nút sao chép, gửi lại và thêm bên dưới tin nhắn của bạn",
+  "displaySettingsPageShowModelNameTimestampTitle": "Hiển thị tên mô hình và dấu thời gian",
+  "displaySettingsPageShowModelNameTimestampSubtitle": "Hiển thị tên mô hình và dấu thời gian bên dưới trong tin nhắn chat",
+  "displaySettingsPageShowModelNameTitle": "Hiển thị tên mô hình",
+  "displaySettingsPageShowModelTimestampTitle": "Hiển thị dấu thời gian mô hình",
+  "displaySettingsPageShowProviderInChatMessageTitle": "Hiển thị nhà cung cấp sau tên mô hình",
+  "displaySettingsPageShowProviderInChatMessageSubtitle": "Hiển thị tên nhà cung cấp sau ID mô hình trong tin nhắn chat (ví dụ: model | provider)",
+  "displaySettingsPageChatModelIconTitle": "Biểu tượng mô hình chat",
+  "displaySettingsPageChatModelIconSubtitle": "Hiển thị biểu tượng mô hình trong tin nhắn",
+  "displaySettingsPageShowTokenStatsTitle": "Hiển thị thống kê token và ngữ cảnh",
+  "displaySettingsPageShowTokenStatsSubtitle": "Hiển thị mức sử dụng token và số lượng tin nhắn",
+  "displaySettingsPageAutoCollapseThinkingTitle": "Tự động thu gọn phần suy luận",
+  "displaySettingsPageAutoCollapseThinkingSubtitle": "Thu gọn phần suy luận sau khi hoàn tất",
+  "displaySettingsPageCollapseThinkingStepsTitle": "Thu gọn các bước suy luận",
+  "displaySettingsPageCollapseThinkingStepsSubtitle": "Chỉ hiển thị các bước mới nhất cho đến khi mở rộng",
+  "displaySettingsPageShowToolResultSummaryTitle": "Hiển thị tóm tắt kết quả công cụ",
+  "displaySettingsPageInsertSuggestionOnlyTitle": "Chỉ chèn gợi ý mà không gửi",
+  "displaySettingsPageShowToolResultSummarySubtitle": "Hiển thị văn bản tóm tắt bên dưới các bước công cụ",
+  "displaySettingsPageRegenerateDeleteTrailingMessagesTitle": "Xoá tin nhắn bên dưới khi tạo lại",
+  "displaySettingsPageShowRegenerateConfirmDialogTitle": "Xác nhận trước khi tạo lại",
+  "chainOfThoughtExpandSteps": "Hiển thị thêm {count} bước",
+  "@chainOfThoughtExpandSteps": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "chainOfThoughtCollapse": "Thu gọn",
+  "displaySettingsPageShowChatListDateTitle": "Hiển thị ngày trong danh sách chat",
+  "displaySettingsPageShowChatListDateSubtitle": "Hiển thị nhãn nhóm ngày trong danh sách cuộc trò chuyện",
+  "displaySettingsPageEnableImageCropperTitle": "Bật cắt ảnh",
+  "@displaySettingsPageEnableImageCropperTitle": {},
+  "displaySettingsPageEnableImageCropperSubtitle": "Cắt ảnh sau khi chọn từ thư viện hoặc camera",
+  "@displaySettingsPageEnableImageCropperSubtitle": {},
+  "displaySettingsPageKeepSidebarOpenOnAssistantTapTitle": "Giữ sidebar mở khi chọn trợ lý",
+  "displaySettingsPageKeepSidebarOpenOnTopicTapTitle": "Giữ sidebar mở khi chọn chủ đề",
+  "displaySettingsPageKeepAssistantListExpandedOnSidebarCloseTitle": "Không thu gọn danh sách trợ lý khi đóng sidebar",
+  "displaySettingsPageShowUpdatesTitle": "Hiển thị cập nhật",
+  "displaySettingsPageShowUpdatesSubtitle": "Hiển thị thông báo cập nhật ứng dụng",
+  "displaySettingsPageMessageNavButtonsTitle": "Nút điều hướng tin nhắn",
+  "displaySettingsPageMessageNavButtonsSubtitle": "Chọn khi nào các nút nhảy nhanh xuất hiện",
+  "displaySettingsPageMessageNavButtonsModeAlways": "Luôn hiển thị",
+  "displaySettingsPageMessageNavButtonsModeScroll": "Hiển thị khi cuộn",
+  "displaySettingsPageMessageNavButtonsModeHover": "Hiển thị khi rê chuột",
+  "displaySettingsPageMessageNavButtonsModeScrollAndHover": "Hiển thị khi cuộn hoặc rê chuột",
+  "displaySettingsPageMessageNavButtonsModeNever": "Không bao giờ hiển thị",
+  "displaySettingsPageUseNewAssistantAvatarUxTitle": "Hiển thị ảnh đại diện trợ lý trên thanh tiêu đề chat",
+  "displaySettingsPageHapticsOnSidebarTitle": "Haptic khi dùng sidebar",
+  "displaySettingsPageHapticsOnSidebarSubtitle": "Bật rung phản hồi khi mở/đóng sidebar",
+  "displaySettingsPageHapticsGlobalTitle": "Haptic toàn cục",
+  "displaySettingsPageHapticsIosSwitchTitle": "Haptic trên công tắc",
+  "displaySettingsPageHapticsOnListItemTapTitle": "Haptic trên mục danh sách",
+  "displaySettingsPageHapticsOnCardTapTitle": "Haptic trên thẻ",
+  "displaySettingsPageHapticsOnGenerateTitle": "Haptic khi tạo phản hồi",
+  "displaySettingsPageHapticsOnGenerateSubtitle": "Bật rung phản hồi trong lúc tạo nội dung",
+  "displaySettingsPageNewChatAfterDeleteTitle": "Tạo chat mới sau khi xoá chủ đề",
+  "displaySettingsPageNewChatOnAssistantSwitchTitle": "Tạo chat mới khi đổi trợ lý",
+  "displaySettingsPageNewChatOnLaunchTitle": "Tạo chat mới khi khởi chạy",
+  "displaySettingsPageEnterToSendTitle": "Nhấn Enter để gửi",
+  "displaySettingsPageSendShortcutTitle": "Phím tắt gửi",
+  "displaySettingsPageSendShortcutEnter": "Enter",
+  "displaySettingsPageSendShortcutCtrlEnter": "Ctrl/Cmd + Enter",
+  "displaySettingsPageAutoSwitchTopicsTitle": "Tự động chuyển sang chủ đề",
+  "desktopDisplaySettingsTopicPositionTitle": "Vị trí chủ đề",
+  "desktopDisplaySettingsTopicPositionLeft": "Trái",
+  "desktopDisplaySettingsTopicPositionRight": "Phải",
+  "displaySettingsPageNewChatOnLaunchSubtitle": "Tự động tạo chat mới khi khởi chạy",
+  "displaySettingsPageChatFontSizeTitle": "Cỡ chữ chat",
+  "displaySettingsPageAutoScrollEnableTitle": "Tự động cuộn xuống cuối",
+  "displaySettingsPageAutoScrollIdleTitle": "Độ trễ tự cuộn trở lại",
+  "displaySettingsPageAutoScrollIdleSubtitle": "Thời gian chờ sau khi người dùng cuộn trước khi nhảy về cuối",
+  "displaySettingsPageAutoScrollDisabledLabel": "Tắt",
+  "displaySettingsPageChatFontSampleText": "Đây là đoạn chat mẫu",
+  "displaySettingsPageChatBackgroundMaskTitle": "Độ mờ lớp phủ nền chat",
+  "displaySettingsPageThemeSettingsTitle": "Cài đặt giao diện",
+  "displaySettingsPageThemeColorTitle": "Màu giao diện",
+  "desktopSettingsFontsTitle": "Phông chữ",
+  "displaySettingsPageTrayTitle": "Khay hệ thống",
+  "displaySettingsPageTrayShowTrayTitle": "Hiển thị tray icon",
+  "displaySettingsPageTrayMinimizeOnCloseTitle": "Thu nhỏ xuống tray khi đóng",
+  "desktopFontAppLabel": "Phông chữ ứng dụng",
+  "desktopFontCodeLabel": "Phông chữ mã",
+  "desktopFontFamilySystemDefault": "Mặc định hệ thống",
+  "desktopFontFamilyMonospaceDefault": "Đơn cách",
+  "desktopFontFilterHint": "Lọc phông chữ...",
+  "displaySettingsPageAppFontTitle": "Phông chữ ứng dụng",
+  "displaySettingsPageCodeFontTitle": "Phông chữ mã",
+  "fontPickerChooseLocalFile": "Chọn tệp cục bộ",
+  "fontPickerGetFromGoogleFonts": "Duyệt Google Fonts",
+  "fontPickerFilterHint": "Lọc phông chữ...",
+  "desktopFontLoading": "Đang tải phông chữ…",
+  "displaySettingsPageFontLocalFileLabel": "Tệp cục bộ",
+  "displaySettingsPageFontResetLabel": "Đặt lại cài đặt phông chữ",
+  "displaySettingsPageOtherSettingsTitle": "Cài đặt khác",
+  "themeSettingsPageDynamicColorSection": "Màu động",
+  "themeSettingsPageUseDynamicColorTitle": "Màu động hệ thống",
+  "themeSettingsPageUseDynamicColorSubtitle": "Khớp bảng màu hệ thống (Android 12+)",
+  "themeSettingsPageUsePureBackgroundTitle": "Nền thuần",
+  "themeSettingsPageUsePureBackgroundSubtitle": "Bong bóng và điểm nhấn đi theo giao diện.",
+  "themeSettingsPageColorPalettesSection": "Bảng màu",
+  "ttsServicesPageBackButton": "Quay lại",
+  "ttsServicesPageTitle": "Chuyển văn bản thành giọng nói",
+  "ttsServicesPageSettingsTooltip": "Cài đặt TTS",
+  "ttsServicesPageAddTooltip": "Thêm",
+  "ttsServicesPageAddNotImplemented": "Thêm TTS service chưa được triển khai",
+  "ttsServicesPageSystemTtsTitle": "TTS hệ thống",
+  "ttsServicesPageSystemTtsAvailableSubtitle": "Dùng TTS tích hợp của hệ thống",
+  "ttsServicesPageSystemTtsUnavailableSubtitle": "Không khả dụng: {error}",
+  "@ttsServicesPageSystemTtsUnavailableSubtitle": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ttsServicesPageSystemTtsUnavailableNotInitialized": "chưa khởi tạo",
+  "ttsServicesPageTestSpeechText": "Xin chào, đây là một câu thử giọng nói.",
+  "ttsServicesPageConfigureTooltip": "Cấu hình",
+  "ttsServicesPageTestVoiceTooltip": "Thử giọng",
+  "ttsServicesPageStopTooltip": "Dừng",
+  "ttsServicesPageDeleteTooltip": "Xoá",
+  "ttsServicesPageSystemTtsSettingsTitle": "Cài đặt TTS hệ thống",
+  "ttsServicesPageEngineLabel": "Engine",
+  "ttsServicesPageAutoLabel": "Tự động",
+  "ttsServicesPageLanguageLabel": "Ngôn ngữ",
+  "ttsServicesPageSpeechRateLabel": "Tốc độ đọc",
+  "ttsServicesPagePitchLabel": "Cao độ",
+  "ttsServicesPageSettingsSavedMessage": "Đã lưu cài đặt.",
+  "ttsServicesPageDoneButton": "Xong",
+  "ttsServicesPageNetworkSectionTitle": "TTS mạng",
+  "ttsServicesPageNoNetworkServices": "Không có dịch vụ TTS.",
+  "ttsServicesDialogAddTitle": "Thêm dịch vụ TTS",
+  "ttsServicesDialogEditTitle": "Sửa dịch vụ TTS",
+  "ttsServicesDialogProviderType": "Nhà cung cấp",
+  "ttsServicesDialogCancelButton": "Hủy",
+  "ttsServicesDialogAddButton": "Thêm",
+  "ttsServicesDialogSaveButton": "Lưu",
+  "ttsServicesFieldNameLabel": "Tên",
+  "ttsServicesFieldApiKeyLabel": "Khóa API",
+  "ttsServicesFieldBaseUrlLabel": "URL gốc API",
+  "ttsServicesFieldModelLabel": "Mô hình",
+  "ttsServicesFieldVoiceLabel": "Giọng nói",
+  "ttsServicesFieldVoiceIdLabel": "Voice ID",
+  "ttsServicesFieldEmotionLabel": "Cảm xúc",
+  "ttsServicesFieldSpeedLabel": "Tốc độ",
+  "ttsServicesFieldLanguageTypeLabel": "Loại ngôn ngữ",
+  "ttsServicesFieldLanguageLabel": "Ngôn ngữ",
+  "ttsServicesValidationApiKeyRequired": "Cần có API Key",
+  "ttsServicesViewDetailsButton": "Xem chi tiết",
+  "ttsServicesDialogErrorTitle": "Chi tiết lỗi",
+  "ttsServicesCloseButton": "Đóng",
+  "ttsSettingsPageTitle": "Cài đặt TTS",
+  "ttsSettingsPlaybackSection": "Phát lại",
+  "ttsSettingsAutoPlayTitle": "Tự động phát phản hồi của trợ lý",
+  "ttsSettingsAutoPlayDescription": "Tự động bắt đầu TTS sau khi phản hồi của trợ lý hoàn tất.",
+  "ttsSettingsTextSelectionSection": "Chọn văn bản",
+  "ttsSettingsTextSelectionFallbackDescription": "Nếu không tìm thấy văn bản khớp, sẽ phát toàn bộ phản hồi.",
+  "ttsSettingsTextSelectionFullTextTitle": "Toàn văn",
+  "ttsSettingsTextSelectionFullTextDescription": "Phát toàn bộ phản hồi của trợ lý.",
+  "ttsSettingsTextSelectionQuotedOnlyTitle": "Chỉ văn bản trong ngoặc kép",
+  "ttsSettingsTextSelectionQuotedOnlyDescription": "Đọc văn bản nằm trong “”, ‘’, \"\", '', 「」 hoặc 『』.",
+  "ttsSettingsTextSelectionOutsideParenthesesTitle": "Ngoài dấu ngoặc",
+  "ttsSettingsTextSelectionOutsideParenthesesDescription": "Bỏ qua văn bản trong () và （）.",
+  "ttsSettingsTextSelectionItalicOnlyTitle": "Chỉ văn bản in nghiêng",
+  "ttsSettingsTextSelectionItalicOnlyDescription": "Đọc văn bản in nghiêng trong Markdown hoặc HTML.",
+  "ttsSettingsTextSelectionNonItalicTitle": "Chỉ văn bản không in nghiêng",
+  "ttsSettingsTextSelectionNonItalicDescription": "Bỏ qua văn bản in nghiêng trong Markdown hoặc HTML.",
+  "ttsFloatingPlayerLabel": "Trình phát TTS",
+  "ttsFloatingPauseTooltip": "Tạm dừng",
+  "ttsFloatingResumeTooltip": "Tiếp tục",
+  "ttsFloatingReplayTooltip": "Phát lại",
+  "ttsFloatingRewind15Tooltip": "Lùi 15 giây",
+  "ttsFloatingForward15Tooltip": "Tiến 15 giây",
+  "ttsFloatingSpeedTooltip": "Tốc độ phát",
+  "ttsFloatingCloseTooltip": "Đóng trình phát",
+  "ttsFloatingExpandTooltip": "Mở rộng điều khiển phát lại",
+  "ttsFloatingCollapseTooltip": "Thu gọn điều khiển phát lại",
+  "imageViewerPageShareFailedOpenFile": "Không thể chia sẻ, đã thử mở tệp: {message}",
+  "@imageViewerPageShareFailedOpenFile": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "imageViewerPageShareFailed": "Chia sẻ thất bại: {error}",
+  "@imageViewerPageShareFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "imageViewerPageShareButton": "Chia sẻ hình ảnh",
+  "imageViewerPageCloseButton": "Đóng xem trước",
+  "imageViewerPageSaveButton": "Lưu hình ảnh",
+  "imageViewerPageCopyButton": "Sao chép hình ảnh",
+  "imageViewerPagePreviousButton": "Hình trước",
+  "imageViewerPageNextButton": "Hình tiếp theo",
+  "imageViewerPageZoomInButton": "Phóng to",
+  "imageViewerPageZoomOutButton": "Thu nhỏ",
+  "imageViewerPageResetZoomButton": "Đặt lại thu phóng",
+  "imageViewerPageFlipHorizontalButton": "Lật ngang",
+  "imageViewerPageFlipVerticalButton": "Lật dọc",
+  "imageViewerPageRotateLeftButton": "Xoay trái",
+  "imageViewerPageRotateRightButton": "Xoay phải",
+  "imageViewerPageCounter": "{index}/{total}",
+  "@imageViewerPageCounter": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imageViewerPageImageLabel": "Ảnh {index} trong {total}",
+  "@imageViewerPageImageLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "imageViewerPageImageLoadFailed": "Không tải được hình ảnh",
+  "imageViewerPageSaveSuccess": "Đã lưu vào thư viện",
+  "imageViewerPageSaveFailed": "Lưu thất bại: {error}",
+  "@imageViewerPageSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsShare": "Kelivo - Trợ lý AI mã nguồn mở",
+  "searchProviderBingLocalDescription": "Dùng web scraping để lấy kết quả Bing. Không cần API key; có thể không ổn định.",
+  "searchProviderDuckDuckGoDescription": "Tìm kiếm DuckDuckGo tập trung vào quyền riêng tư qua DDGS. Không cần API key; hỗ trợ chọn vùng.",
+  "searchProviderBraveDescription": "Công cụ tìm kiếm độc lập của Brave. Tập trung vào quyền riêng tư, không theo dõi hoặc lập hồ sơ.",
+  "searchProviderExaDescription": "Tìm kiếm neural với khả năng hiểu ngữ nghĩa. Phù hợp cho nghiên cứu và tìm nội dung cụ thể.",
+  "searchProviderLinkUpDescription": "API tìm kiếm có câu trả lời kèm nguồn dẫn. Cung cấp cả kết quả và tóm tắt do AI tạo.",
+  "searchProviderMetasoDescription": "Tìm kiếm Trung Quốc của Metaso. Tối ưu cho nội dung tiếng Trung với khả năng AI.",
+  "searchProviderSearXNGDescription": "Metasearch engine tôn trọng quyền riêng tư. Yêu cầu self-hosted instance; không theo dõi.",
+  "searchProviderTavilyDescription": "API tìm kiếm AI tối ưu cho LLM. Cung cấp kết quả chất lượng cao và liên quan.",
+  "searchProviderZhipuDescription": "Tìm kiếm AI Trung Quốc của Zhipu AI. Tối ưu cho nội dung và truy vấn tiếng Trung.",
+  "searchProviderOllamaDescription": "API tìm kiếm web Ollama. Bổ sung thông tin cập nhật cho mô hình.",
+  "searchProviderJinaDescription": "Nền tảng tìm kiếm AI với embeddings, rerankers, web reader, deepsearch và mô hình ngôn ngữ nhỏ. Đa ngôn ngữ và đa phương thức.",
+  "searchServiceNameBingLocal": "Bing (Local)",
+  "searchServiceNameDuckDuckGo": "DuckDuckGo",
+  "searchServiceNameTavily": "Tavily",
+  "searchServiceNameExa": "Exa",
+  "searchServiceNameZhipu": "Zhipu AI",
+  "searchServiceNameSearXNG": "SearXNG",
+  "searchServiceNameLinkUp": "LinkUp",
+  "searchServiceNameBrave": "Brave",
+  "searchServiceNameMetaso": "Metaso",
+  "searchServiceNameOllama": "Ollama",
+  "searchServiceNameJina": "Jina",
+  "searchServiceNamePerplexity": "Perplexity",
+  "searchProviderPerplexityDescription": "API tìm kiếm của Perplexity. Sắp xếp kết quả web theo thứ hạng với bộ lọc vùng và miền.",
+  "searchServiceNameBocha": "Bocha",
+  "searchProviderBochaDescription": "API tìm kiếm web Bocha. Kết quả web chính xác với tóm tắt tùy chọn.",
+  "searchServiceNameSerper": "Serper",
+  "searchProviderSerperDescription": "API tìm kiếm Google của Serper. Kết quả web nhanh với bộ lọc quốc gia, ngôn ngữ, thời gian và trang.",
+  "searchServiceNameQuerit": "Querit",
+  "searchProviderQueritDescription": "API tìm kiếm Querit cho ứng dụng LLM. Trả về kết quả web theo thời gian thực với bộ lọc site, thời gian, quốc gia và ngôn ngữ.",
+  "searchServiceNameGrok": "Grok",
+  "searchProviderGrokDescription": "Tìm kiếm Grok qua xAI Responses API. Dùng công cụ tìm kiếm web và X, trả về nguồn trích dẫn.",
+  "searchServicesDialogCountryOptional": "Quốc gia/vùng (tùy chọn)",
+  "searchServicesDialogLanguageOptional": "Ngôn ngữ (tùy chọn)",
+  "searchServicesDialogTimeFilterOptional": "Bộ lọc thời gian (tùy chọn)",
+  "searchServicesDialogPageOptional": "Trang (tùy chọn)",
+  "searchServicesDialogPageInvalid": "Trang phải là số nguyên dương.",
+  "searchServicesDialogSitesIncludeOptional": "Site cần bao gồm (tùy chọn)",
+  "searchServicesDialogSitesExcludeOptional": "Site cần loại trừ (tùy chọn)",
+  "searchServicesDialogTimeRangeOptional": "Khoảng thời gian (tùy chọn)",
+  "searchServicesDialogCountriesOptional": "Quốc gia (tùy chọn)",
+  "searchServicesDialogLanguagesOptional": "Ngôn ngữ (tùy chọn)",
+  "searchServicesDialogSitesHint": "example.com, docs.example.com",
+  "searchServicesDialogTimeRangeHint": "d7",
+  "searchServicesDialogCountriesHint": "united states, japan",
+  "searchServicesDialogLanguagesHint": "english, japanese",
+  "generationInterrupted": "Quá trình tạo bị gián đoạn",
+  "titleForLocale": "Cuộc trò chuyện mới",
+  "temporaryChatTitle": "Trò chuyện tạm thời",
+  "temporaryChatEmptyMessage": "Chat tạm thời không xuất hiện trong lịch sử và sẽ bị xóa hoàn toàn sau khi bạn rời đi.",
+  "temporaryChatToggleTooltip": "Bật/tắt chat tạm thời",
+  "quickPhraseBackTooltip": "Quay lại",
+  "quickPhraseGlobalTitle": "Cụm từ nhanh",
+  "quickPhraseAssistantTitle": "Cụm từ nhanh của trợ lý",
+  "quickPhraseAddTooltip": "Thêm cụm từ nhanh",
+  "quickPhraseEmptyMessage": "Chưa có cụm từ nhanh nào",
+  "quickPhraseAddTitle": "Thêm cụm từ nhanh",
+  "quickPhraseEditTitle": "Sửa cụm từ nhanh",
+  "quickPhraseTitleLabel": "Tiêu đề",
+  "quickPhraseContentLabel": "Nội dung",
+  "quickPhraseCancelButton": "Hủy",
+  "quickPhraseSaveButton": "Lưu",
+  "instructionInjectionTitle": "Chèn chỉ dẫn",
+  "instructionInjectionBackTooltip": "Quay lại",
+  "instructionInjectionAddTooltip": "Thêm chỉ dẫn",
+  "instructionInjectionImportTooltip": "Nhập từ tệp",
+  "instructionInjectionEmptyMessage": "Chưa có thẻ chèn chỉ dẫn",
+  "instructionInjectionDefaultTitle": "Chế độ học tập",
+  "instructionInjectionAddTitle": "Thêm chèn chỉ dẫn",
+  "instructionInjectionEditTitle": "Sửa chèn chỉ dẫn",
+  "instructionInjectionNameLabel": "Tên",
+  "instructionInjectionPromptLabel": "Prompt",
+  "instructionInjectionUngroupedGroup": "Chưa phân nhóm",
+  "instructionInjectionGroupLabel": "Nhóm",
+  "instructionInjectionGroupHint": "Tùy chọn",
+  "instructionInjectionImportSuccess": "Đã nhập {count} chỉ dẫn",
+  "@instructionInjectionImportSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "instructionInjectionSheetSubtitle": "Chọn một prompt để áp dụng trước khi trò chuyện",
+  "mcpJsonEditButtonTooltip": "Sửa JSON",
+  "mcpJsonEditTitle": "Sửa JSON",
+  "mcpJsonEditParseFailed": "JSON parse thất bại",
+  "mcpJsonEditSavedApplied": "Đã lưu và áp dụng",
+  "mcpTimeoutSettingsTooltip": "Đặt thời gian chờ khi gọi công cụ",
+  "mcpTimeoutDialogTitle": "Thời gian chờ khi gọi công cụ",
+  "mcpTimeoutSecondsLabel": "Thời gian chờ khi gọi công cụ (giây)",
+  "mcpTimeoutInvalid": "Nhập số giây dương",
+  "quickPhraseEditButton": "Sửa",
+  "quickPhraseDeleteButton": "Xoá",
+  "quickPhraseMenuTitle": "Cụm từ nhanh",
+  "chatInputBarQuickPhraseTooltip": "Cụm từ nhanh",
+  "assistantEditQuickPhraseDescription": "Quản lý cụm từ nhanh cho trợ lý này. Nhấn nút bên dưới để thêm cụm từ.",
+  "assistantEditManageQuickPhraseButton": "Quản lý cụm từ nhanh",
+  "assistantEditPageMemoryTab": "Bộ nhớ",
+  "assistantEditLocalToolTimeInfoTitle": "Thông tin thời gian",
+  "assistantEditLocalToolTimeInfoSubtitle": "Đọc ngày, thứ, giờ, múi giờ, độ lệch UTC và dấu thời gian của thiết bị.",
+  "assistantEditLocalToolClipboardTitle": "Clipboard",
+  "assistantEditLocalToolClipboardSubtitle": "Đọc hoặc ghi văn bản thuần từ clipboard của thiết bị khi thực sự cần.",
+  "assistantEditLocalToolTextToSpeechTitle": "Chuyển văn bản thành giọng nói",
+  "assistantEditLocalToolTextToSpeechSubtitle": "Cho phép trợ lý đọc văn bản thành tiếng bằng cấu hình phát TTS.",
+  "assistantEditLocalToolAskUserTitle": "Hỏi người dùng",
+  "assistantEditLocalToolAskUserSubtitle": "Cho phép trợ lý hỏi các câu ngắn và tiếp tục sau khi bạn trả lời.",
+  "assistantEditMemorySwitchTitle": "Bộ nhớ",
+  "assistantEditMemorySwitchDescription": "Cho phép trợ lý tạo và dùng bộ nhớ giữa các chat.",
+  "assistantEditRecentChatsSwitchTitle": "Tham chiếu chat gần đây",
+  "assistantEditRecentChatsSwitchDescription": "Bao gồm tiêu đề cuộc trò chuyện gần đây để hỗ trợ ngữ cảnh.",
+  "assistantEditManageMemoryTitle": "Quản lý bộ nhớ",
+  "assistantEditAddMemoryButton": "Thêm bộ nhớ",
+  "assistantEditMemoryEmpty": "Chưa có bộ nhớ",
+  "assistantEditMemoryDialogTitle": "Bộ nhớ",
+  "assistantEditMemoryDialogHint": "Nhập nội dung bộ nhớ",
+  "assistantEditAddQuickPhraseButton": "Thêm cụm từ nhanh",
+  "multiKeyPageDeleteSnackbarDeletedOne": "Đã xoá 1 key",
+  "multiKeyPageUndo": "Hoàn tác",
+  "multiKeyPageUndoRestored": "Đã khôi phục",
+  "multiKeyPageDeleteErrorsTooltip": "Xoá lỗi",
+  "multiKeyPageDeleteErrorsConfirmTitle": "Xoá tất cả khoá lỗi?",
+  "multiKeyPageDeleteErrorsConfirmContent": "Thao tác này sẽ xoá tất cả khoá được đánh dấu lỗi.",
+  "multiKeyPageDeletedErrorsSnackbar": "Đã xoá {n} khoá lỗi",
+  "@multiKeyPageDeletedErrorsSnackbar": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "providerDetailPageProviderTypeTitle": "Loại nhà cung cấp",
+  "displaySettingsPageChatItemDisplayTitle": "Hiển thị mục chat",
+  "displaySettingsPageRenderingSettingsTitle": "Cài đặt hiển thị",
+  "displaySettingsPageBehaviorStartupTitle": "Hành vi & khởi chạy",
+  "displaySettingsPageHapticsSettingsTitle": "Haptics",
+  "assistantSettingsNoPromptPlaceholder": "Chưa có prompt",
+  "providersPageMultiSelectTooltip": "Chọn nhiều",
+  "providersPageDeleteSelectedConfirmContent": "Xoá các nhà cung cấp đã chọn? Không thể hoàn tác.",
+  "providersPageDeleteSelectedSnackbar": "Đã xoá các nhà cung cấp đã chọn",
+  "providersPageExportSelectedTitle": "Xuất {count} nhà cung cấp",
+  "@providersPageExportSelectedTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "providersPageExportCopyButton": "Sao chép",
+  "providersPageExportShareButton": "Chia sẻ",
+  "providersPageExportCopiedSnackbar": "Đã sao chép mã xuất",
+  "providersPageDeleteAction": "Xoá",
+  "providersPageExportAction": "Xuất",
+  "assistantEditPresetTitle": "Cuộc trò chuyện mẫu",
+  "assistantEditPresetAddUser": "Thêm preset người dùng",
+  "assistantEditPresetAddAssistant": "Thêm preset trợ lý",
+  "assistantEditPresetInputHintUser": "Nhập tin nhắn người dùng…",
+  "assistantEditPresetInputHintAssistant": "Nhập tin nhắn trợ lý…",
+  "assistantEditPresetEmpty": "Chưa có tin nhắn preset",
+  "assistantEditPresetEditDialogTitle": "Sửa tin nhắn preset",
+  "assistantEditPresetRoleUser": "Người dùng",
+  "assistantEditPresetRoleAssistant": "Trợ lý",
+  "desktopTtsPleaseAddProvider": "Vui lòng thêm nhà cung cấp TTS trước",
+  "settingsPageNetworkProxy": "Proxy mạng",
+  "networkProxyEnableLabel": "Bật proxy",
+  "networkProxySettingsHeader": "Cài đặt proxy",
+  "networkProxyType": "Loại proxy",
+  "networkProxyTypeHttp": "HTTP",
+  "networkProxyTypeHttps": "HTTPS",
+  "networkProxyTypeSocks5": "SOCKS5",
+  "networkProxyServerHost": "Máy chủ",
+  "networkProxyPort": "Cổng",
+  "networkProxyUsername": "Tên người dùng",
+  "networkProxyPassword": "Mật khẩu",
+  "networkProxyBypassLabel": "Bỏ qua proxy",
+  "networkProxyBypassHint": "Danh sách host/CIDR ngăn cách bằng dấu phẩy, ví dụ: localhost,127.0.0.1,192.168.0.0/16,*.local",
+  "networkProxyOptionalHint": "Tùy chọn",
+  "networkProxyTestHeader": "Kiểm tra kết nối",
+  "networkProxyTestUrlHint": "URL kiểm tra",
+  "networkProxyTestButton": "Kiểm tra",
+  "networkProxyTesting": "Đang kiểm tra…",
+  "networkProxyTestSuccess": "Kết nối thành công",
+  "networkProxyTestFailed": "Kiểm tra thất bại: {error}",
+  "@networkProxyTestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "networkProxyNoUrl": "Vui lòng nhập URL",
+  "networkProxyPriorityNote": "Khi cả proxy toàn cục và proxy nhà cung cấp đều bật, proxy ở cấp nhà cung cấp được ưu tiên.",
+  "desktopShowProviderInModelCapsule": "Hiển thị nhà cung cấp trong thẻ mô hình",
+  "messageWebViewOpenInBrowser": "Mở trong trình duyệt",
+  "messageWebViewConsoleLogs": "Nhật ký console",
+  "messageWebViewNoConsoleMessages": "Không có thông báo console",
+  "messageWebViewRefreshTooltip": "Làm mới",
+  "messageWebViewForwardTooltip": "Tiến tới",
+  "chatInputBarOcrTooltip": "Hình ảnh OCR",
+  "providerDetailPageMultiSelectButton": "Chọn nhiều",
+  "providerDetailPageBatchDetectButton": "Phát hiện",
+  "providerDetailPageBatchDetecting": "Đang phát hiện…",
+  "providerDetailPageBatchDetectStart": "Bắt đầu phát hiện",
+  "providerDetailPageDetectSuccess": "Phát hiện thành công",
+  "providerDetailPageDetectFailed": "Phát hiện thất bại",
+  "providerDetailPageDeleteSelectedModelsButton": "Xóa",
+  "providerDetailPageDeleteSelectedModelsTooltip": "Xóa các mô hình đã chọn",
+  "providerDetailPageDeleteSelectedModelsConfirm": "Xóa {count} mô hình đã chọn? Không thể hoàn tác thao tác này.",
+  "@providerDetailPageDeleteSelectedModelsConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "providerDetailPageSelectedModelsDeletedSnackbar": "Đã xóa {count} mô hình",
+  "@providerDetailPageSelectedModelsDeletedSnackbar": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "providerDetailPageDeleteAllModelsTooltip": "Xóa tất cả mô hình",
+  "providerDetailPageDeleteAllModelsWarning": "Không thể hoàn tác thao tác này.",
+  "requestLogSettingTitle": "Ghi nhật ký request",
+  "requestLogSettingSubtitle": "Khi bật, chi tiết request/response sẽ được ghi vào logs/logs.txt (xoay vòng hằng ngày).",
+  "flutterLogSettingTitle": "Ghi nhật ký Flutter",
+  "flutterLogSettingSubtitle": "Khi bật, lỗi Flutter và output print sẽ được ghi vào logs/flutter_logs.txt (xoay vòng hằng ngày).",
+  "logViewerTitle": "Nhật ký request",
+  "logViewerEmpty": "Chưa có nhật ký",
+  "logViewerCurrentLog": "Nhật ký hiện tại",
+  "logViewerExport": "Xuất",
+  "logViewerOpenFolder": "Mở thư mục nhật ký",
+  "logViewerRequestsCount": "{count} request",
+  "@logViewerRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logViewerFieldId": "ID",
+  "logViewerFieldMethod": "Phương thức",
+  "logViewerFieldStatus": "Trạng thái",
+  "logViewerFieldStarted": "Bắt đầu",
+  "logViewerFieldEnded": "Kết thúc",
+  "logViewerFieldDuration": "Thời lượng",
+  "logViewerSectionSummary": "Tóm tắt",
+  "logViewerSectionParameters": "Tham số",
+  "logViewerSectionRequestHeaders": "Header request",
+  "logViewerSectionRequestBody": "Body request",
+  "logViewerSectionResponseHeaders": "Header response",
+  "logViewerSectionResponseBody": "Body response",
+  "logViewerSectionWarnings": "Cảnh báo",
+  "logViewerErrorTitle": "Lỗi",
+  "logViewerMoreCount": "+{count} mục nữa",
+  "@logViewerMoreCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logSettingsTitle": "Cài đặt nhật ký",
+  "logSettingsSaveOutput": "Lưu output response",
+  "logSettingsSaveOutputSubtitle": "Ghi nội dung body response vào nhật ký (có thể dùng nhiều dung lượng lưu trữ)",
+  "logSettingsAutoDelete": "Tự động xóa",
+  "logSettingsAutoDeleteSubtitle": "Xóa nhật ký cũ hơn số ngày đã chỉ định",
+  "logSettingsAutoDeleteDisabled": "Đã tắt",
+  "logSettingsAutoDeleteDays": "{count} ngày",
+  "@logSettingsAutoDeleteDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logSettingsMaxSize": "Kích thước nhật ký tối đa",
+  "logSettingsMaxSizeSubtitle": "Xóa nhật ký cũ nhất khi vượt quá giới hạn",
+  "logSettingsMaxSizeUnlimited": "Không giới hạn",
+  "assistantEditManageSummariesTitle": "Quản lý tóm tắt",
+  "assistantEditSummaryEmpty": "Chưa có tóm tắt",
+  "assistantEditSummaryDialogTitle": "Sửa tóm tắt",
+  "assistantEditSummaryDialogHint": "Nhập nội dung tóm tắt",
+  "assistantEditDeleteSummaryTitle": "Xóa tóm tắt",
+  "assistantEditDeleteSummaryContent": "Bạn có chắc muốn xóa tóm tắt này không?",
+  "homePageProcessingFiles": "Đang xử lý tệp...",
+  "fileUploadDuplicateTitle": "Tệp đã tồn tại",
+  "fileUploadDuplicateContent": "Tệp {fileName} đã tồn tại. Dùng tệp hiện có?",
+  "@fileUploadDuplicateContent": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "fileUploadDuplicateUseExisting": "Dùng tệp hiện có",
+  "fileUploadDuplicateUploadNew": "Tải lên tệp mới",
+  "settingsPageWorldBook": "World Book",
+  "worldBookTitle": "World Book",
+  "worldBookAdd": "Thêm World Book",
+  "worldBookEmptyMessage": "Chưa có World Book nào",
+  "worldBookUnnamed": "World Book chưa đặt tên",
+  "worldBookDisabledTag": "Đã tắt",
+  "worldBookAlwaysOnTag": "Luôn bật",
+  "worldBookAddEntry": "Thêm mục",
+  "worldBookExport": "Chia sẻ / Xuất",
+  "worldBookConfig": "Cấu hình",
+  "worldBookDeleteTitle": "Xóa World Book",
+  "worldBookDeleteMessage": "Xóa “{name}”? Không thể hoàn tác thao tác này.",
+  "@worldBookDeleteMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "worldBookCancel": "Hủy",
+  "worldBookDelete": "Xóa",
+  "worldBookExportFailed": "Xuất thất bại: {error}",
+  "@worldBookExportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "worldBookNoEntriesHint": "Chưa có mục nào",
+  "worldBookUnnamedEntry": "Mục chưa đặt tên",
+  "worldBookKeywordsLine": "Từ khóa: {keywords}",
+  "@worldBookKeywordsLine": {
+    "placeholders": {
+      "keywords": {
+        "type": "String"
+      }
+    }
+  },
+  "worldBookEditEntry": "Sửa mục",
+  "worldBookDeleteEntry": "Xóa mục",
+  "worldBookNameLabel": "Tên",
+  "worldBookDescriptionLabel": "Mô tả",
+  "worldBookEnabledLabel": "Đã bật",
+  "worldBookSave": "Lưu",
+  "worldBookEntryNameLabel": "Tên mục",
+  "worldBookEntryEnabledLabel": "Đã bật mục",
+  "worldBookEntryPriorityLabel": "Ưu tiên",
+  "worldBookEntryKeywordsLabel": "Từ khóa",
+  "worldBookEntryKeywordsHint": "Nhập từ khóa và nhấn + để thêm.",
+  "worldBookEntryKeywordInputHint": "Nhập từ khóa",
+  "worldBookEntryKeywordAddTooltip": "Thêm từ khóa",
+  "worldBookEntryUseRegexLabel": "Dùng regex",
+  "worldBookEntryCaseSensitiveLabel": "Phân biệt hoa thường",
+  "worldBookEntryAlwaysOnLabel": "Luôn hoạt động",
+  "worldBookEntryAlwaysOnHint": "Luôn chèn mà không cần khớp từ khóa",
+  "worldBookEntryScanDepthLabel": "Độ sâu quét",
+  "worldBookEntryContentLabel": "Nội dung",
+  "worldBookEntryInjectionPositionLabel": "Vị trí chèn",
+  "worldBookEntryInjectionRoleLabel": "Vai trò chèn",
+  "worldBookEntryInjectDepthLabel": "Độ sâu chèn",
+  "worldBookInjectionPositionBeforeSystemPrompt": "Trước system prompt",
+  "worldBookInjectionPositionAfterSystemPrompt": "Sau system prompt",
+  "worldBookInjectionPositionTopOfChat": "Đầu chat",
+  "worldBookInjectionPositionBottomOfChat": "Cuối chat",
+  "worldBookInjectionPositionAtDepth": "Tại độ sâu",
+  "worldBookInjectionRoleUser": "Người dùng",
+  "worldBookInjectionRoleAssistant": "Trợ lý",
+  "mcpToolNeedsApproval": "Yêu cầu phê duyệt",
+  "toolApprovalPending": "Đang chờ phê duyệt",
+  "toolApprovalApprove": "Phê duyệt",
+  "toolApprovalDeny": "Từ chối",
+  "toolApprovalDenyTitle": "Từ chối gọi công cụ",
+  "toolApprovalDenyHint": "Lý do (tùy chọn)",
+  "toolApprovalDeniedMessage": "Lệnh gọi công cụ \"{toolName}\" đã bị người dùng từ chối. Lý do: {reason}",
+  "askUserCardSubmit": "Gửi câu trả lời",
+  "askUserCardCustomHint": "Nhập câu trả lời",
+  "askUserCardSomethingElse": "Khác",
+  "askUserCardSkip": "Bỏ qua",
+  "askUserCardSkipped": "Đã bỏ qua",
+  "askUserCardAnswered": "Đã trả lời",
+  "askUserCardInactive": "Câu hỏi này không còn hoạt động. Tạo lại hoặc tiếp tục cuộc trò chuyện.",
+  "askUserCardCancelled": "Câu hỏi đã bị hủy",
+  "askUserCardQuestionCount": "{count, plural, =1{Đặt 1 câu hỏi} other{Đặt {count} câu hỏi}}",
+  "@askUserCardQuestionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tokenDetailPromptTokens": "{count} tokens",
+  "@tokenDetailPromptTokens": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tokenDetailPromptTokensWithCache": "{count} tokens ({cached} cached)",
+  "@tokenDetailPromptTokensWithCache": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "cached": {
+        "type": "int"
+      }
+    }
+  },
+  "tokenDetailCompletionTokens": "{count} tokens",
+  "@tokenDetailCompletionTokens": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tokenDetailSpeed": "{value} tok/s",
+  "@tokenDetailSpeed": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "tokenDetailDuration": "{value}s",
+  "@tokenDetailDuration": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "tokenDetailTotalTokens": "{count} tokens",
+  "@tokenDetailTotalTokens": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debugPageTitle": "Debug",
+  "debugPageConversationToolsTitle": "Công cụ cuộc trò chuyện",
+  "debugPageCreateOversizedConversationButton": "Tạo cuộc trò chuyện quá lớn (30 MB)",
+  "debugPageCreateManyMessagesConversationButton": "Tạo cuộc trò chuyện 1024 tin nhắn",
+  "debugPageCreateDailyMixedMarkdownConversationButton": "Tạo 3000 tin nhắn Markdown hỗn hợp theo ngày",
+  "debugPageCreateLongReasoningConversationButton": "Tạo cuộc trò chuyện suy luận dài (128 tin nhắn)",
+  "debugPageCreatingButton": "Đang tạo...",
+  "debugPageCreatingOversizedConversation": "Đang tạo cuộc trò chuyện quá lớn 30 MB...",
+  "debugPageCreatingManyMessagesConversation": "Đang tạo cuộc trò chuyện 1024 tin nhắn...",
+  "debugPageCreatingDailyMixedMarkdownConversation": "Đang tạo cuộc trò chuyện Markdown hỗn hợp 3000 tin nhắn theo ngày...",
+  "debugPageCreatingLongReasoningConversation": "Đang tạo cuộc trò chuyện debug suy luận dài...",
+  "debugPageNoCurrentAssistant": "Không có trợ lý hiện tại. Hãy tạo hoặc chọn trợ lý trước.",
+  "debugPageConversationCreated": "Đã tạo cuộc trò chuyện debug với {count} tin nhắn.",
+  "@debugPageConversationCreated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debugPageCreateConversationFailed": "Không thể tạo cuộc trò chuyện debug: {error}",
+  "@debugPageCreateConversationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "debugPageOversizedConversationTitle": "Kiểm thử cuộc trò chuyện quá lớn ({sizeMB} MB)",
+  "@debugPageOversizedConversationTitle": {
+    "placeholders": {
+      "sizeMB": {
+        "type": "int"
+      }
+    }
+  },
+  "debugPageManyMessagesConversationTitle": "Kiểm thử cuộc trò chuyện {count} tin nhắn",
+  "@debugPageManyMessagesConversationTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debugPageDailyMixedMarkdownConversationTitle": "Kiểm thử Markdown hỗn hợp hằng ngày {count} tin nhắn",
+  "@debugPageDailyMixedMarkdownConversationTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debugPageLongReasoningConversationTitle": "Kiểm thử suy luận dài {count} tin nhắn",
+  "@debugPageLongReasoningConversationTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "debugPageOversizedConversationSeedText": "Đây là đoạn debug dài để tái hiện việc hiển thị chậm trong cuộc trò chuyện quá lớn. Nội dung có lặp lại kiểu Markdown, dấu câu, nội dung CJK và các từ thuần văn bản để có thể đo hiệu năng hiển thị chat, lưu trữ và cuộn.",
+  "debugPageManyMessagesSeedText": "Tin nhắn {role} #{index}: mẫu debug ngẫu nhiên nhanh để kiểm thử render danh sách, độ ổn định cuộn, nhóm tin nhắn và hiệu năng lịch sử cuộc trò chuyện.",
+  "@debugPageManyMessagesSeedText": {
+    "placeholders": {
+      "role": {
+        "type": "String"
+      },
+      "index": {
+        "type": "int"
+      }
+    }
+  }
+}

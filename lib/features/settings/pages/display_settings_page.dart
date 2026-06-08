@@ -84,7 +84,10 @@ class _DisplaySettingsPageState extends State<DisplaySettingsPage> {
                       }
                       return l10n.displaySettingsPageLanguageChineseLabel;
                     }
-                    return l10n.displaySettingsPageLanguageEnglishLabel;
+                    if (l.languageCode == 'vi') {
+                      return l10n.displaySettingsPageLanguageVietnameseLabel;
+                    }
+                    return l10n.displaySettingsPageLanguageVietnameseLabel;
                   }
 
                   return Text(
@@ -641,6 +644,12 @@ class _DisplaySettingsPageState extends State<DisplaySettingsPage> {
                   label: l10n.displaySettingsPageLanguageEnglishLabel,
                   onTap: () => Navigator.of(ctx).pop('en_US'),
                 ),
+                _sheetDividerNoIcon(ctx),
+                _sheetOption(
+                  ctx,
+                  label: l10n.displaySettingsPageLanguageVietnameseLabel,
+                  onTap: () => Navigator.of(ctx).pop('vi'),
+                ),
               ],
             ),
           ),
@@ -662,6 +671,9 @@ class _DisplaySettingsPageState extends State<DisplaySettingsPage> {
         await settings.setAppLocale(
           const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
         );
+        break;
+      case 'vi':
+        await settings.setAppLocale(const Locale('vi'));
         break;
       case 'en_US':
       default:

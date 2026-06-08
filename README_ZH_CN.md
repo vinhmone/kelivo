@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Join%20QQ%20Group-%230366CC?style=for-the-badge&logo=qq&logoColor=white" alt="Join QQ Group"/>
   </a>
 
-[English](README.md) | 简体中文
+[Tiếng Việt](README.md) | [English](README_EN.md) | 简体中文
 </div>
 
 <div align="center">
@@ -38,7 +38,7 @@
 
 - 🎨 **现代化设计** - Material You 设计语言，支持动态主题色(Android12+)
 - 🌙 **深色模式** - 完美适配深色主题，保护您的眼睛
-- 🌍 **多语言支持** - 支持中文和英文界面
+- 🌍 **多语言支持** - 支持越南语、中文和英文界面
 - 🖥️ **多平台支持** - 移动端与桌面端均支持（Android/iOS/Harmony、Windows/macOS/Linux）
 - 🔄 **多供应商支持** - 支持 OpenAI、Google Gemini、Anthropic 等主流 AI 供应商
 - 🤖 **自定义助手** - 创建和管理个性化 AI 助手

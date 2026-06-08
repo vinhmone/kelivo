@@ -722,6 +722,7 @@ class _AppLanguageRowState extends State<_AppLanguageRow> {
             '🇨🇳 ${AppLocalizations.of(ctx)!.displaySettingsPageLanguageChineseLabel}',
             '🇨🇳 ${AppLocalizations.of(ctx)!.languageDisplayTraditionalChinese}',
             '🇺🇸 ${AppLocalizations.of(ctx)!.displaySettingsPageLanguageEnglishLabel}',
+            '🇻🇳 ${AppLocalizations.of(ctx)!.displaySettingsPageLanguageVietnameseLabel}',
           ];
           double maxText = 0;
           for (final s in labels) {
@@ -787,7 +788,10 @@ class _AppLanguageRowState extends State<_AppLanguageRow> {
         }
         return l10n.displaySettingsPageLanguageChineseLabel;
       }
-      return l10n.displaySettingsPageLanguageEnglishLabel;
+      if (l.languageCode == 'vi') {
+        return l10n.displaySettingsPageLanguageVietnameseLabel;
+      }
+      return l10n.displaySettingsPageLanguageVietnameseLabel;
     }
 
     final current = sp.isFollowingSystemLocale
@@ -1125,6 +1129,14 @@ class _LanguageDropdownState extends State<_LanguageDropdown> {
         ),
         (!sp.isFollowingSystemLocale && sp.appLocale.languageCode == 'en'),
       ),
+      (
+        _LangItem(
+          flag: '🇻🇳',
+          label: l10n.displaySettingsPageLanguageVietnameseLabel,
+          tag: 'vi',
+        ),
+        (!sp.isFollowingSystemLocale && sp.appLocale.languageCode == 'vi'),
+      ),
     ];
     final maxH = MediaQuery.of(context).size.height * 0.5;
     return AnimatedOpacity(
@@ -1193,6 +1205,11 @@ class _LanguageDropdownState extends State<_LanguageDropdown> {
                                   .read<SettingsProvider>()
                                   .setAppLocale(const Locale('en', 'US'));
                               break;
+                            case 'vi':
+                              await context
+                                  .read<SettingsProvider>()
+                                  .setAppLocale(const Locale('vi'));
+                              break;
                           }
                           if (!mounted) return;
                           widget.onClose();
@@ -1212,7 +1229,7 @@ class _LanguageDropdownState extends State<_LanguageDropdown> {
 class _LangItem {
   final String flag;
   final String label;
-  final String tag; // 'system' | 'zh_CN' | 'zh_Hant' | 'en_US'
+  final String tag; // 'system' | 'zh_CN' | 'zh_Hant' | 'en_US' | 'vi'
   const _LangItem({required this.flag, required this.label, required this.tag});
 }
 
